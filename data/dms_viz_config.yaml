@@ -1,0 +1,59 @@
+# Configuration for `configure-dms-viz`, keyed by names given to output JSONs
+# See https://dms-viz.github.io/dms-viz-docs/preparing-data/command-line-api/
+# for more on `configure-dms-viz`.
+
+#---------------------------------------------------------------------------------------
+# Structure 4kwm
+#  - A/Anhui/5/2005 H5 HA
+#  - in biological assembly, A is HA1 and B is HA2
+#---------------------------------------------------------------------------------------
+
+cell_entry_on_4kwm:
+  pdb_id: 4kwm
+  name: cell entry effects on H5 HA trimer 4kwm
+  pdb_type: biological_assembly  # show 'asymmetric_unit' or 'biological_assembly' or 'file' for structure
+  # `data_csv` is CSV of DMS data, must have columns 'site', 'wildtype', and 'mutant'. Also must
+  # have a column corresponding to `metric` defined below, and `opt_params[condition]` if that is
+  # defined; OR you must specify `melt_condition_metric_cols`.
+  data_csv: results/summaries/entry_all_cells.csv
+  # `sitemap_csv` is CSV that must have columns 'reference_site' (corresponding to site in `data_csv`)
+  # as well as 'sequential_site', 'protein_site', and 'chains' which have meaning described here:
+  # https://dms-viz.github.io/dms-viz-docs/preparing-data/data-requirements/#sitemap
+  sitemap_csv: data/pdb_inputs_for_dms_viz/4kwm_sitemap.csv
+  # `melt_condition_metric_cols` is for when there are several columns in `data_csv`
+  # that need to be melted to create the 'metric' column and 'condition' column defined
+  # in `opt_params`. In that case, list the columns to melt. Otherwise set to 'null'.
+  melt_condition_metric_cols:
+    - entry in SA23 cells
+    - entry in SA26 cells
+    - entry in SA23 SA26 mix cells
+    - entry in tufted duck MHCII cells
+  metric: cell entry  # metric to plot, in `data_csv` or created by `melt_conditions_metric_cols`
+  # optional params, have same meaning as to `configure-dms-viz`:
+  # https://dms-viz.github.io/dms-viz-docs/preparing-data/command-line-api/
+  opt_params:
+    condition: cell
+    included-chains: A B
+    alphabet: RKHDEQNSTYWFAILMVGPC
+    floor: False
+    summary-stat: mean
+    tooltip-cols: {sequential_site: sequential site, region: region}
+    heatmap-limits: "-5, 0, 2"
+
+cell_entry_diffs_on_4kwm:
+  pdb_id: 4kwm
+  name: differences between cells of effects of mutations to H5 HA trimer on entry (4kwm)
+  pdb_type: biological_assembly
+  data_csv: results/compare_cell_entry/mut_diffs.csv
+  sitemap_csv: data/pdb_inputs_for_dms_viz/4kwm_sitemap.csv
+  melt_condition_metric_cols:
+    - SA23 minus tufted duck MHCII
+  metric: entry_difference
+  opt_params:
+    condition: comparison
+    included-chains: A B
+    alphabet: RKHDEQNSTYWFAILMVGPC
+    floor: False
+    summary-stat: sum
+    tooltip-cols: {sequential_site: sequential site, region: region, SA23: SA23 entry, tufted duck MHCII: tufted duck MHCII entry}
+    heatmap-limits: "-4, 0, 4"

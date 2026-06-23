@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}}, "layer": [{"mark": {"type": "line"}, "encoding": {"color": {"field": "cell_line", "scale": {"range": ["#1f77b4", "#8c564b", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]}, "sort": ["293-SA23", "293-SA26", "293-noSA", "293-noSA-human-MHCII-0301", "293-noSA-human-MHCII-1503", "293-noSA-tufted-duck-MHCII"], "type": "nominal"}, "detail": {"field": "cell_line", "type": "nominal"}, "opacity": {"condition": {"param": "param_8878fc01606754c4", "value": 0.8, "empty": false}, "value": 0.2}, "strokeWidth": {"condition": {"param": "param_8878fc01606754c4", "value": 4, "empty": false}, "value": 0.5}, "x": {"field": "mean_RLUperuL", "scale": {"domain": [10, 402.8], "type": "log"}, "type": "quantitative"}, "y": {"field": "strain", "sort": ["bald-particle"], "type": "nominal"}}, "name": "view_4c444da055fdf8aa_0"}, {"mark": {"type": "rule", "opacity": 0.6, "strokeWidth": 1.5}, "encoding": {"color": {"field": "cell_line", "legend": null, "scale": {"range": ["#1f77b4", "#8c564b", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]}, "sort": ["293-SA23", "293-SA26", "293-noSA", "293-noSA-human-MHCII-0301", "293-noSA-human-MHCII-1503", "293-noSA-tufted-duck-MHCII"], "type": "nominal"}, "tooltip": [{"field": "strain", "title": "Virus", "type": "nominal"}, {"field": "subtype", "title": "Subtype", "type": "nominal"}, {"field": "host", "title": "Host", "type": "nominal"}, {"field": "cell_line", "title": "Cell Line", "type": "nominal"}, {"field": "mean_RLUperuL", "format": ".2e", "title": "Mean RLU/\u00b5L", "type": "quantitative"}, {"field": "sem_RLUperuL", "format": ".2e", "title": "SEM", "type": "quantitative"}, {"field": "count", "title": "Replicates", "type": "quantitative"}], "x": {"field": "lower_bound", "scale": {"domain": [10, 402.8], "type": "log"}, "type": "quantitative"}, "x2": {"field": "upper_bound"}, "y": {"axis": {"labelFontSize": 8, "labelLimit": 200, "titleFontSize": 12}, "field": "strain", "sort": ["bald-particle"], "title": "Virus Strain", "type": "nominal"}}}, {"mark": {"type": "point", "filled": true, "opacity": 0.8, "size": 80, "stroke": "black", "strokeWidth": 0.5}, "encoding": {"color": {"field": "cell_line", "legend": {"labelFontSize": 11, "labelLimit": 0, "orient": "right", "title": "Cell Line", "titleFontSize": 13}, "scale": {"range": ["#1f77b4", "#8c564b", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]}, "sort": ["293-SA23", "293-SA26", "293-noSA", "293-noSA-human-MHCII-0301", "293-noSA-human-MHCII-1503", "293-noSA-tufted-duck-MHCII"], "type": "nominal"}, "shape": {"field": "host", "legend": {"labelFontSize": 11, "orient": "right", "title": "Host", "titleFontSize": 13}, "type": "nominal"}, "tooltip": [{"field": "strain", "title": "Virus", "type": "nominal"}, {"field": "subtype", "title": "Subtype", "type": "nominal"}, {"field": "host", "title": "Host", "type": "nominal"}, {"field": "cell_line", "title": "Cell Line", "type": "nominal"}, {"field": "mean_RLUperuL", "format": ".2e", "title": "Mean RLU/\u00b5L", "type": "quantitative"}, {"field": "sem_RLUperuL", "format": ".2e", "title": "SEM", "type": "quantitative"}, {"field": "count", "title": "Replicates", "type": "quantitative"}], "x": {"axis": {"format": ".0e", "grid": true, "gridOpacity": 0.3, "labelFontSize": 10, "titleFontSize": 12}, "field": "mean_RLUperuL", "scale": {"domain": [10, 402.8], "type": "log"}, "title": "RLU per \u00b5L", "type": "quantitative"}, "y": {"axis": {"labelFontSize": 8, "labelLimit": 200, "titleFontSize": 12}, "field": "strain", "sort": ["bald-particle"], "title": "Virus Strain", "type": "nominal"}}}], "data": {"name": "data-6421bca259f0f4c3c91b1e7e0e41cc68"}, "height": 400, "params": [{"name": "param_8878fc01606754c4", "select": {"type": "point", "clear": "mouseout", "fields": ["cell_line"], "nearest": false, "on": "mouseover"}, "views": ["view_4c444da055fdf8aa_0"]}], "resolve": {"scale": {"color": "independent"}}, "title": {"text": "Virus Titers Across Cell Lines with Error Bars - bald-particle", "anchor": "start", "fontSize": 16}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-6421bca259f0f4c3c91b1e7e0e41cc68": [{"strain": "bald-particle", "cell_line": "293-SA23", "mean_RLUperuL": 80.97999999999999, "std_RLUperuL": 3.280975464705576, "count": 2, "ID": 32, "subtype": "bald-particle", "host": "nan", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "sem_RLUperuL": 2.3199999999999967, "lower_bound": 78.66, "upper_bound": 83.29999999999998}, {"strain": "bald-particle", "cell_line": "293-SA26", "mean_RLUperuL": 169.68, "std_RLUperuL": 44.858854198474575, "count": 2, "ID": 32, "subtype": "bald-particle", "host": "nan", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "sem_RLUperuL": 31.72, "lower_bound": 137.96, "upper_bound": 201.4}, {"strain": "bald-particle", "cell_line": "293-noSA", "mean_RLUperuL": 57.3, "std_RLUperuL": 2.517300141024103, "count": 2, "ID": 32, "subtype": "bald-particle", "host": "nan", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "sem_RLUperuL": 1.7799999999999956, "lower_bound": 55.52, "upper_bound": 59.07999999999999}, {"strain": "bald-particle", "cell_line": "293-noSA-human-MHCII-0301", "mean_RLUperuL": 99.36, "std_RLUperuL": 6.561950929411162, "count": 2, "ID": 32, "subtype": "bald-particle", "host": "nan", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "sem_RLUperuL": 4.640000000000001, "lower_bound": 94.72, "upper_bound": 104.0}, {"strain": "bald-particle", "cell_line": "293-noSA-human-MHCII-1503", "mean_RLUperuL": 65.03, "std_RLUperuL": 1.4849242404917484, "count": 2, "ID": 32, "subtype": "bald-particle", "host": "nan", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "sem_RLUperuL": 1.049999999999999, "lower_bound": 63.980000000000004, "upper_bound": 66.08}, {"strain": "bald-particle", "cell_line": "293-noSA-tufted-duck-MHCII", "mean_RLUperuL": 127.35, "std_RLUperuL": 18.9646038714232, "count": 2, "ID": 32, "subtype": "bald-particle", "host": "nan", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "sem_RLUperuL": 13.409999999999997, "lower_bound": 113.94, "upper_bound": 140.76}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

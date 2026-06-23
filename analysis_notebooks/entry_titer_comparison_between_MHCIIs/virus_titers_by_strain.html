@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}, "facet": {"spacing": 20}, "title": {"fontSize": 16}}, "data": {"name": "data-12370f2b0c659fe0d0dbd73c9fcec76b"}, "facet": {"column": {"field": "virus", "header": {"labelFontSize": 18, "labelOrient": "top", "title": null}, "sort": ["H5_wigeon", "H5_GsGd", "1918_NYC", "H9_HongKong", "H7_Anhui"], "type": "nominal"}}, "spec": {"layer": [{"mark": {"type": "point", "filled": true, "opacity": 0.9, "size": 300, "stroke": "black", "strokeWidth": 1}, "encoding": {"color": {"field": "virus", "legend": {"labelFontSize": 12, "labelLimit": 0, "orient": "bottom", "title": "virus", "titleFontSize": 13}, "scale": {"range": ["#E69F00", "#56B4E9", "#999999", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7"]}, "type": "nominal"}, "tooltip": [{"field": "virus", "type": "nominal"}, {"field": "cells", "type": "nominal"}, {"field": "mean_RLUperuL", "format": ".2e", "type": "quantitative"}], "x": {"axis": {"labelAngle": 90, "labelFontSize": 14, "labelLimit": 0}, "field": "cells", "sort": ["293-SA23", "293T", "293-noSA", "293-noSA-tufted-duck-MHCII", "293-noSA-human-MHCII-15:03", "293-noSA-human-MHCII-03:01"], "title": null, "type": "nominal"}, "y": {"axis": {"format": ".0e", "labelFontSize": 12, "titleFontSize": 14}, "field": "mean_RLUperuL", "scale": {"domain": [10, 100000000.0], "type": "log"}, "title": "RLU per \u00b5L", "type": "quantitative"}}}], "height": 180, "width": 180}, "columns": 4, "resolve": {"scale": {"y": "shared"}}, "title": "variant titers on different cell lines", "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-12370f2b0c659fe0d0dbd73c9fcec76b": [{"virus": "1918_NYC", "cells": "293-SA23", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 1679.3760000000002}, {"virus": "1918_NYC", "cells": "293-noSA", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 111.39616000000001}, {"virus": "1918_NYC", "cells": "293-noSA-human-MHCII-03:01", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 1247.424}, {"virus": "1918_NYC", "cells": "293-noSA-human-MHCII-15:03", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 2082.368}, {"virus": "1918_NYC", "cells": "293-noSA-tufted-duck-MHCII", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 383657.6}, {"virus": "1918_NYC", "cells": "293T", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 17234.079999999998}, {"virus": "H5_GsGd", "cells": "293-SA23", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 72347.84}, {"virus": "H5_GsGd", "cells": "293-noSA", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 14728.0}, {"virus": "H5_GsGd", "cells": "293-noSA-human-MHCII-03:01", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 642297.6}, {"virus": "H5_GsGd", "cells": "293-noSA-human-MHCII-15:03", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 747856.0}, {"virus": "H5_GsGd", "cells": "293-noSA-tufted-duck-MHCII", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 2001824.0}, {"virus": "H5_GsGd", "cells": "293T", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 180409.6}, {"virus": "H5_wigeon", "cells": "293-SA23", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 1238688.0}, {"virus": "H5_wigeon", "cells": "293-noSA", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 46991.04}, {"virus": "H5_wigeon", "cells": "293-noSA-human-MHCII-03:01", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 455641.6}, {"virus": "H5_wigeon", "cells": "293-noSA-human-MHCII-15:03", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 797760.0}, {"virus": "H5_wigeon", "cells": "293-noSA-tufted-duck-MHCII", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 2882416.0}, {"virus": "H5_wigeon", "cells": "293T", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 2484080.0}, {"virus": "H7_Anhui", "cells": "293-SA23", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 29354.879999999997}, {"virus": "H7_Anhui", "cells": "293-noSA", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 9161.933333333332}, {"virus": "H7_Anhui", "cells": "293-noSA-human-MHCII-03:01", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 14183.746666666666}, {"virus": "H7_Anhui", "cells": "293-noSA-human-MHCII-15:03", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 32603.2}, {"virus": "H7_Anhui", "cells": "293-noSA-tufted-duck-MHCII", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 217423.33333333334}, {"virus": "H7_Anhui", "cells": "293T", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 56419.333333333336}, {"virus": "H9_HongKong", "cells": "293-SA23", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 2417.296}, {"virus": "H9_HongKong", "cells": "293-noSA", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 119.36224}, {"virus": "H9_HongKong", "cells": "293-noSA-human-MHCII-03:01", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 85.62752}, {"virus": "H9_HongKong", "cells": "293-noSA-human-MHCII-15:03", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 96.31744}, {"virus": "H9_HongKong", "cells": "293-noSA-tufted-duck-MHCII", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 64363.2}, {"virus": "H9_HongKong", "cells": "293T", "oseltamivir": "no", "media": "IGM", "mean_RLUperuL": 3581.3120000000004}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

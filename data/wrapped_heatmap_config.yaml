@@ -1,0 +1,47 @@
+# Configuration to make wrapped (multi-row) heatmaps
+
+entry_in_noSA_tufted_duck_MHCII: &entry_tufted_duck_MHCII
+  data_csv: results/summaries/entry_all_cells.csv
+  title: effect of mutations entry in cells expressing tufted duck MHCII
+  effect_col: entry in tufted duck MHCII cells
+  data_query_str: {}  # ignore this site
+  sites_per_row: 113  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  color_scheme: redblue  # vega color scheme
+  fixed_min: -6  # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+
+tufted-duck_MHCII-binding: &tufted_duck_MHCII_binding
+  data_csv: results/summaries/tufted_duck_MHCII_binding.csv
+  title: effect of mutations on tufted duck MHC-II bidning
+  effect_col: tufted duck MHCII binding escape
+  data_query_str: {}  # ignore this site
+  sites_per_row: 113  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  color_scheme:
+    - "#AA2531"   # deep red
+    - "#f7f7f7"   # white
+    - "#134B85"   # neon blue
+  fixed_min: -2  # fix heatmap min at this
+  fixed_max: 2  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  dark_gray_muts:
+    col: entry in SA23 cells
+    cutoff: -3
+
+
+tufted-duck_MHCII-SA2326_entry_difference: &entry_difference
+  data_csv: results/summaries/tufted_duck_MHCII_binding.csv
+  title: entry difference between cells expressing tufted duck MHC-II and SA23 SA26 cell mixture
+  effect_col: entry difference between noSA tufted duck MHCII cells and SA26 SA23 cell mix
+  data_query_str: {}  # ignore this site
+  sites_per_row: 113  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  color_scheme:
+    - "#AA2531"   # deep red
+    - "#f7f7f7"   # white
+    - "#62B6CB"   # neon blue
+  fixed_min: -5  # fix heatmap min at this
+  fixed_max: 6  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order

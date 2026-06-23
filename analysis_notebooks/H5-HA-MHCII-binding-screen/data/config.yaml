@@ -1,0 +1,31 @@
+# config for analysis
+
+#amount of virus used
+virus_volume_ul: 100
+
+min_titers: 1000 # minimul RLU/ul in all cell lines
+
+
+plates:
+  - plate1-293-noSA-human-MHCII-0301
+  - plate1-293-noSA-human-MHCII-1503
+  - plate1-293-noSA-tufted-duck-MHCII
+  - plate1-293-noSA
+  - plate1-293-SA23
+  - plate2-293-noSA-human-MHCII-0301
+  - plate2-293-noSA-human-MHCII-1503
+  - plate2-293-noSA-tufted-duck-MHCII
+  - plate2-293-noSA
+  - plate2-293-SA23
+  - plate3-293-noSA-human-MHCII-0301
+  - plate3-293-noSA-human-MHCII-1503
+  - plate3-293-noSA-tufted-duck-MHCII
+  - plate3-293-noSA
+  - plate3-293-SA23
+
+colors:
+  - 293-noSA: '#989898'
+  - 293-SA23: '#2f6fb7'
+  - 293-noSA-tufted-duck-MHCII: '#c33d54'
+  - 293-noSA-human-MHCII-0301: '#1eb684'
+  - 293-noSA-human-MHCII-1503: '#0b6f50'

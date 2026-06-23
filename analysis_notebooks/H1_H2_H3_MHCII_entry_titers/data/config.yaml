@@ -1,0 +1,20 @@
+# config for analysis
+
+#amount of virus used
+virus_volume_ul: 50
+
+min_titers: 1000 # minimul RLU/ul in all cell lines
+
+
+plates:
+  - plate1-293-noSA-human-MHCII-0301
+  - plate1-293-noSA-human-MHCII-1503
+  - plate1-293-noSA-tufted-duck-MHCII
+  - plate1-293-noSA
+  - plate1-293-SA23
+  - plate1-293-SA26
+
+
+exclude_strains:
+  - A/swine/Changhua/199-3/2000 # wrong date in the name based on in tree placement
+  - A/Netherlands/B1/1968 # had high noSA titer which precludes us from reliably measuring MHC-II titers

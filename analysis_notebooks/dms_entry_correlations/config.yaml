@@ -1,0 +1,11 @@
+# config for analysis
+
+#entry data
+entry_summary: ../../results/summaries/entry_all_cells.csv
+
+#RBS sites
+RBS_loop_130: [128, 130, 131, 133, 134, 135, 136, 137, 138]
+RBS_loop_150: [155, 156, 157, 158, 159, 160]
+RBS_loop_190: [186, 189, 190, 191, 192, 193, 194, 196, 197, 198]
+RBS_loop_220: [221, 222, 223, 224, 225, 226, 227, 228]
+RBS_base: [98, 153, 183, 195, 145] #this was converted from figure1 of the paper

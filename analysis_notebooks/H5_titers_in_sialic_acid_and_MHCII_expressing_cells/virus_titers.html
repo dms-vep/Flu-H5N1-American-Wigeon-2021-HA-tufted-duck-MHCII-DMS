@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "strokeWidth": 0}, "axis": {"grid": false}}, "data": {"name": "data-9740c2742e133c9d47d9dc8733d6e9c0"}, "mark": {"type": "point", "filled": true, "opacity": 0.9, "size": 100}, "encoding": {"color": {"field": "oseltamivir", "scale": {"range": ["#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7"]}, "type": "nominal"}, "x": {"axis": {"labelAngle": -90, "title": null}, "field": "cells", "type": "nominal"}, "y": {"axis": {"format": ".0e"}, "field": "mean_RLUperuL", "scale": {"domain": [100000.0, 10000000.0], "type": "log"}, "title": "RLU per \u00b5L", "type": "quantitative"}}, "height": 200, "title": "pseudovirus titers", "width": 200, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-9740c2742e133c9d47d9dc8733d6e9c0": [{"virus": "H5N1_Widgeon_2021", "cells": "293-noSA-tufted-duck-MHCII", "oseltamivir": "no", "mean_RLUperuL": 2358194.0}, {"virus": "H5N1_Widgeon_2021", "cells": "293-noSA-tufted-duck-MHCII", "oseltamivir": "yes", "mean_RLUperuL": 1394240.0}, {"virus": "H5N1_Widgeon_2021", "cells": "293T", "oseltamivir": "no", "mean_RLUperuL": 1051738.0}, {"virus": "H5N1_Widgeon_2021", "cells": "293T", "oseltamivir": "yes", "mean_RLUperuL": 3424078.0}, {"virus": "H5N1_Widgeon_2021", "cells": "293T-tufted-duck-MHCII", "oseltamivir": "no", "mean_RLUperuL": 4580870.0}, {"virus": "H5N1_Widgeon_2021", "cells": "293T-tufted-duck-MHCII", "oseltamivir": "yes", "mean_RLUperuL": 4002122.0}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

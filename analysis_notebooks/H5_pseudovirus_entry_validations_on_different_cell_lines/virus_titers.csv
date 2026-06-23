@@ -1,0 +1,46 @@
+virus,cells,oseltamivir,media,ng_neuraminidase,entry_effect,mean_RLUperuL
+D77E,293-SA23,no,D10,150,MHCII decrease,11244300.0
+D77E,293-noSA,no,D10,150,MHCII decrease,61336.9
+D77E,293-noSA-duck-MHCII,no,D10,150,MHCII decrease,49312.3
+D77E,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease,57009.0
+D77E,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease,52571.8
+I155F,293-SA23,no,D10,150,sialic acid decrease,265418.5
+I155F,293-noSA,no,D10,150,sialic acid decrease,47258.1
+I155F,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease,8508900.0
+I155F,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease,1082480.0
+I155F,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease,2403158.0
+I155H,293-SA23,no,D10,150,sialic acid decrease,186615.5
+I155H,293-noSA,no,D10,150,sialic acid decrease,28079.15
+I155H,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease,7052430.0
+I155H,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease,600388.0
+I155H,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease,1707137.0
+I155H-R227V,293-SA23,no,D10,150,sialic acid decrease,175173.0
+I155H-R227V,293-noSA,no,D10,150,sialic acid decrease,40809.0
+I155H-R227V,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease,8248050.0
+I155H-R227V,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease,491477.0
+I155H-R227V,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease,1564020.0
+R149T,293-SA23,no,D10,150,MHCII decrease,10042830.0
+R149T,293-noSA,no,D10,150,MHCII decrease,96261.6
+R149T,293-noSA-duck-MHCII,no,D10,150,MHCII decrease,80621.9
+R149T,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease,83806.0
+R149T,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease,65127.7
+R227V,293-SA23,no,D10,150,sialic acid decrease,1847820.0
+R227V,293-noSA,no,D10,150,sialic acid decrease,49365.2
+R227V,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease,7147110.0
+R227V,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease,344989.0
+R227V,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease,1199561.0
+S136H,293-SA23,no,D10,150,sialic acid decrease,235180.5
+S136H,293-noSA,no,D10,150,sialic acid decrease,88785.7
+S136H,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease,8233590.0
+S136H,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease,391813.0
+S136H,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease,1348314.0
+VSV-G,293-SA23,no,D10,150,control,4365650.0
+VSV-G,293-noSA,no,D10,150,control,1639220.0
+VSV-G,293-noSA-duck-MHCII,no,D10,150,control,1784800.0
+VSV-G,293-noSA-human-MHCII-03:01,no,D10,150,control,1606854.0
+VSV-G,293-noSA-human-MHCII-15:03,no,D10,150,control,1752612.0
+WT,293-SA23,no,D10,150,control,9253040.0
+WT,293-noSA,no,D10,150,control,77758.6
+WT,293-noSA-duck-MHCII,no,D10,150,control,4387100.0
+WT,293-noSA-human-MHCII-03:01,no,D10,150,control,331818.0
+WT,293-noSA-human-MHCII-15:03,no,D10,150,control,834096.0

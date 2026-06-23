@@ -1,0 +1,361 @@
+﻿replicate,virus,dilution,uL_virus,RLU_per_well,cells,oseltamivir,media,ng_neuraminidase,entry_effect
+rep1,D77E,0.5,50,129400000,293-SA23,no,D10,150,MHCII decrease
+rep1,D77E,0.25,25,116300000,293-SA23,no,D10,150,MHCII decrease
+rep1,D77E,0.125,12.5,77470000,293-SA23,no,D10,150,MHCII decrease
+rep1,D77E,0.0625,6.25,54810000,293-SA23,no,D10,150,MHCII decrease
+rep1,D77E,0.03125,3.125,30730000,293-SA23,no,D10,150,MHCII decrease
+rep1,D77E,0.015625,1.5625,20470000,293-SA23,no,D10,150,MHCII decrease
+rep1,D77E,0.0078125,0.78125,15080000,293-SA23,no,D10,150,MHCII decrease
+rep1,D77E,0.00390625,0.390625,9965000,293-SA23,no,D10,150,MHCII decrease
+rep1,S136H,0.5,50,2187000,293-SA23,no,D10,150,sialic acid decrease
+rep1,S136H,0.25,25,1541000,293-SA23,no,D10,150,sialic acid decrease
+rep1,S136H,0.125,12.5,1001000,293-SA23,no,D10,150,sialic acid decrease
+rep1,S136H,0.0625,6.25,750100,293-SA23,no,D10,150,sialic acid decrease
+rep1,S136H,0.03125,3.125,605500,293-SA23,no,D10,150,sialic acid decrease
+rep1,S136H,0.015625,1.5625,483900,293-SA23,no,D10,150,sialic acid decrease
+rep1,S136H,0.0078125,0.78125,344700,293-SA23,no,D10,150,sialic acid decrease
+rep1,S136H,0.00390625,0.390625,246600,293-SA23,no,D10,150,sialic acid decrease
+rep1,R149T,0.5,50,124100000,293-SA23,no,D10,150,MHCII decrease
+rep1,R149T,0.25,25,114000000,293-SA23,no,D10,150,MHCII decrease
+rep1,R149T,0.125,12.5,72810000,293-SA23,no,D10,150,MHCII decrease
+rep1,R149T,0.0625,6.25,47480000,293-SA23,no,D10,150,MHCII decrease
+rep1,R149T,0.03125,3.125,27450000,293-SA23,no,D10,150,MHCII decrease
+rep1,R149T,0.015625,1.5625,18020000,293-SA23,no,D10,150,MHCII decrease
+rep1,R149T,0.0078125,0.78125,12840000,293-SA23,no,D10,150,MHCII decrease
+rep1,R149T,0.00390625,0.390625,9034000,293-SA23,no,D10,150,MHCII decrease
+rep1,R227V,0.5,50,3874000,293-SA23,no,D10,150,sialic acid decrease
+rep1,R227V,0.25,25,3893000,293-SA23,no,D10,150,sialic acid decrease
+rep1,R227V,0.125,12.5,2885000,293-SA23,no,D10,150,sialic acid decrease
+rep1,R227V,0.0625,6.25,2595000,293-SA23,no,D10,150,sialic acid decrease
+rep1,R227V,0.03125,3.125,2786000,293-SA23,no,D10,150,sialic acid decrease
+rep1,R227V,0.015625,1.5625,2861000,293-SA23,no,D10,150,sialic acid decrease
+rep1,R227V,0.0078125,0.78125,3207000,293-SA23,no,D10,150,sialic acid decrease
+rep1,R227V,0.00390625,0.390625,2764000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.5,50,1497000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.25,25,1148000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.125,12.5,671900,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.0625,6.25,496900,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.03125,3.125,378300,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.015625,1.5625,284800,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.0078125,0.78125,315000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H,0.00390625,0.390625,225500,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.5,50,1684000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.25,25,1236000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.125,12.5,737500,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0625,6.25,544800,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.03125,3.125,481800,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.015625,1.5625,330900,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0078125,0.78125,229000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.00390625,0.390625,200400,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.5,50,2443000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.25,25,1983000,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.125,12.5,955800,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.0625,6.25,671100,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.03125,3.125,569800,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.015625,1.5625,472700,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.0078125,0.78125,405100,293-SA23,no,D10,150,sialic acid decrease
+rep1,I155F,0.00390625,0.390625,315600,293-SA23,no,D10,150,sialic acid decrease
+rep1,WT,0.5,50,137600000,293-SA23,no,D10,150,control
+rep1,WT,0.25,25,113300000,293-SA23,no,D10,150,control
+rep1,WT,0.125,12.5,70670000,293-SA23,no,D10,150,control
+rep1,WT,0.0625,6.25,44540000,293-SA23,no,D10,150,control
+rep1,WT,0.03125,3.125,26510000,293-SA23,no,D10,150,control
+rep1,WT,0.015625,1.5625,16770000,293-SA23,no,D10,150,control
+rep1,WT,0.0078125,0.78125,11440000,293-SA23,no,D10,150,control
+rep1,WT,0.00390625,0.390625,7852000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.5,25,48670000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.25,12.5,28070000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.125,6.25,14820000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.0625,3.125,9992000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.03125,1.5625,6355000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.015625,0.78125,3788000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.0078125,0.390625,2573000,293-SA23,no,D10,150,control
+rep1,VSV-G,0.00390625,0.1953125,1887000,293-SA23,no,D10,150,control
+rep1,D77E,0.5,50,2289000,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,D77E,0.25,25,1153000,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,D77E,0.125,12.5,405800,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,D77E,0.0625,6.25,294700,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,D77E,0.03125,3.125,159800,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,D77E,0.015625,1.5625,78470,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,D77E,0.0078125,0.78125,50540,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,D77E,0.00390625,0.390625,22240,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,S136H,0.5,50,173300000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,S136H,0.25,25,128600000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,S136H,0.125,12.5,77370000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,S136H,0.0625,6.25,49710000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,S136H,0.03125,3.125,27980000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,S136H,0.015625,1.5625,15600000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,S136H,0.0078125,0.78125,8869000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,S136H,0.00390625,0.390625,5010000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R149T,0.5,50,3675000,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R149T,0.25,25,2464000,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R149T,0.125,12.5,998000,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R149T,0.0625,6.25,275400,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R149T,0.03125,3.125,165300,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R149T,0.015625,1.5625,116900,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R149T,0.0078125,0.78125,70850,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R149T,0.00390625,0.390625,51020,293-noSA-duck-MHCII,no,D10,150,MHCII decrease
+rep1,R227V,0.5,50,177500000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R227V,0.25,25,135600000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R227V,0.125,12.5,79380000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R227V,0.0625,6.25,47130000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R227V,0.03125,3.125,24820000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R227V,0.015625,1.5625,14820000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R227V,0.0078125,0.78125,6063000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,R227V,0.00390625,0.390625,3564000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.5,50,173100000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.25,25,117800000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.125,12.5,76380000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.0625,6.25,47820000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.03125,3.125,24310000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.015625,1.5625,15030000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.0078125,0.78125,5906000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H,0.00390625,0.390625,3721000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.5,50,182100000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.25,25,122000000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.125,12.5,86340000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0625,6.25,58990000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.03125,3.125,31830000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.015625,1.5625,18110000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0078125,0.78125,7224000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.00390625,0.390625,3943000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.5,50,189800000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.25,25,128400000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.125,12.5,87080000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.0625,6.25,56320000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.03125,3.125,32960000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.015625,1.5625,17680000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.0078125,0.78125,8742000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,I155F,0.00390625,0.390625,3949000,293-noSA-duck-MHCII,no,D10,150,sialic acid decrease
+rep1,WT,0.5,50,183600000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,WT,0.25,25,108900000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,WT,0.125,12.5,66600000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,WT,0.0625,6.25,28780000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,WT,0.03125,3.125,14030000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,WT,0.015625,1.5625,6168000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,WT,0.0078125,0.78125,3788000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,WT,0.00390625,0.390625,1504000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.5,25,41940000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.25,12.5,19010000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.125,6.25,10770000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.0625,3.125,5124000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.03125,1.5625,2944000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.015625,0.78125,1264000,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.0078125,0.390625,754700,293-noSA-duck-MHCII,no,D10,150,control
+rep1,VSV-G,0.00390625,0.1953125,445900,293-noSA-duck-MHCII,no,D10,150,control
+rep1,D77E,0.5,50,1292000,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,D77E,0.25,25,1424000,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,D77E,0.125,12.5,682300,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,D77E,0.0625,6.25,332300,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,D77E,0.03125,3.125,187500,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,D77E,0.015625,1.5625,98280,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,D77E,0.0078125,0.78125,32210,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,D77E,0.00390625,0.390625,25740,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,S136H,0.5,50,48920000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,S136H,0.25,25,33190000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,S136H,0.125,12.5,17900000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,S136H,0.0625,6.25,7932000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,S136H,0.03125,3.125,4177000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,S136H,0.015625,1.5625,2415000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,S136H,0.0078125,0.78125,1142000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,S136H,0.00390625,0.390625,560700,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R149T,0.5,50,3001000,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R149T,0.25,25,2314000,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R149T,0.125,12.5,1042000,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R149T,0.0625,6.25,345400,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R149T,0.03125,3.125,141600,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R149T,0.015625,1.5625,99610,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R149T,0.0078125,0.78125,53520,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R149T,0.00390625,0.390625,20410,293-noSA-human-MHCII-15:03,no,D10,150,MHCII decrease
+rep1,R227V,0.5,50,46430000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R227V,0.25,25,31730000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R227V,0.125,12.5,15400000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R227V,0.0625,6.25,8223000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R227V,0.03125,3.125,3607000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R227V,0.015625,1.5625,2008000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R227V,0.0078125,0.78125,871500,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,R227V,0.00390625,0.390625,506300,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.5,50,61170000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.25,25,38780000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.125,12.5,20400000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.0625,6.25,11310000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.03125,3.125,5454000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.015625,1.5625,2995000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.0078125,0.78125,1302000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H,0.00390625,0.390625,825100,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.5,50,64100000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.25,25,38830000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.125,12.5,20210000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0625,6.25,10970000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.03125,3.125,4901000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.015625,1.5625,2643000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0078125,0.78125,1160000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.00390625,0.390625,609500,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.5,50,76140000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.25,25,46700000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.125,12.5,30830000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.0625,6.25,16220000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.03125,3.125,8094000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.015625,1.5625,4312000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.0078125,0.78125,2277000,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,I155F,0.00390625,0.390625,979900,293-noSA-human-MHCII-15:03,no,D10,150,sialic acid decrease
+rep1,WT,0.5,50,65980000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,WT,0.25,25,33670000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,WT,0.125,12.5,17360000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,WT,0.0625,6.25,5763000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,WT,0.03125,3.125,1337000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,WT,0.015625,1.5625,624500,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,WT,0.0078125,0.78125,358500,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,WT,0.00390625,0.390625,159800,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.5,25,33840000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.25,12.5,18350000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.125,6.25,10090000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.0625,3.125,5184000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.03125,1.5625,2690000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.015625,0.78125,1260000,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.0078125,0.390625,793800,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,VSV-G,0.00390625,0.1953125,499900,293-noSA-human-MHCII-15:03,no,D10,150,control
+rep1,D77E,0.5,50,2230000,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,D77E,0.25,25,1501000,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,D77E,0.125,12.5,622300,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,D77E,0.0625,6.25,327500,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,D77E,0.03125,3.125,193300,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,D77E,0.015625,1.5625,95040,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,D77E,0.0078125,0.78125,47820,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,D77E,0.00390625,0.390625,25530,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,S136H,0.5,50,20330000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,S136H,0.25,25,11100000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,S136H,0.125,12.5,4648000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,S136H,0.0625,6.25,2250000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,S136H,0.03125,3.125,1104000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,S136H,0.015625,1.5625,619300,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,S136H,0.0078125,0.78125,301900,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,S136H,0.00390625,0.390625,162500,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R149T,0.5,50,2864000,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R149T,0.25,25,2578000,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R149T,0.125,12.5,1169000,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R149T,0.0625,6.25,396700,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R149T,0.03125,3.125,185300,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R149T,0.015625,1.5625,100700,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R149T,0.0078125,0.78125,77170,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R149T,0.00390625,0.390625,50990,293-noSA-human-MHCII-03:01,no,D10,150,MHCII decrease
+rep1,R227V,0.5,50,22820000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R227V,0.25,25,9177000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R227V,0.125,12.5,4585000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R227V,0.0625,6.25,1963000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R227V,0.03125,3.125,881800,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R227V,0.015625,1.5625,478300,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R227V,0.0078125,0.78125,266100,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,R227V,0.00390625,0.390625,127600,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.5,50,33820000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.25,25,15800000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.125,12.5,7627000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.0625,6.25,3820000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.03125,3.125,1703000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.015625,1.5625,927400,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.0078125,0.78125,429200,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H,0.00390625,0.390625,228700,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.5,50,28530000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.25,25,14140000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.125,12.5,6792000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0625,6.25,2997000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.03125,3.125,1375000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.015625,1.5625,717600,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0078125,0.78125,351000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.00390625,0.390625,165700,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.5,50,57100000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.25,25,27490000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.125,12.5,13650000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.0625,6.25,6953000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.03125,3.125,3500000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.015625,1.5625,1803000,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.0078125,0.78125,870700,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,I155F,0.00390625,0.390625,322400,293-noSA-human-MHCII-03:01,no,D10,150,sialic acid decrease
+rep1,WT,0.5,50,30760000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,WT,0.25,25,14480000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,WT,0.125,12.5,5217000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,WT,0.0625,6.25,1750000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,WT,0.03125,3.125,590100,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,WT,0.015625,1.5625,243200,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,WT,0.0078125,0.78125,151000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,WT,0.00390625,0.390625,87900,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.5,25,34150000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.25,12.5,16690000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.125,6.25,9351000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.0625,3.125,5111000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.03125,1.5625,2491000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.015625,0.78125,1270000,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.0078125,0.390625,637600,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,VSV-G,0.00390625,0.1953125,423800,293-noSA-human-MHCII-03:01,no,D10,150,control
+rep1,D77E,0.5,50,2727000,293-noSA,no,D10,150,MHCII decrease
+rep1,D77E,0.25,25,1775000,293-noSA,no,D10,150,MHCII decrease
+rep1,D77E,0.125,12.5,823600,293-noSA,no,D10,150,MHCII decrease
+rep1,D77E,0.0625,6.25,396700,293-noSA,no,D10,150,MHCII decrease
+rep1,D77E,0.03125,3.125,162500,293-noSA,no,D10,150,MHCII decrease
+rep1,D77E,0.015625,1.5625,88820,293-noSA,no,D10,150,MHCII decrease
+rep1,D77E,0.0078125,0.78125,49180,293-noSA,no,D10,150,MHCII decrease
+rep1,D77E,0.00390625,0.390625,25000,293-noSA,no,D10,150,MHCII decrease
+rep1,S136H,0.5,50,3003000,293-noSA,no,D10,150,sialic acid decrease
+rep1,S136H,0.25,25,1679000,293-noSA,no,D10,150,sialic acid decrease
+rep1,S136H,0.125,12.5,883800,293-noSA,no,D10,150,sialic acid decrease
+rep1,S136H,0.0625,6.25,550100,293-noSA,no,D10,150,sialic acid decrease
+rep1,S136H,0.03125,3.125,311400,293-noSA,no,D10,150,sialic acid decrease
+rep1,S136H,0.015625,1.5625,159500,293-noSA,no,D10,150,sialic acid decrease
+rep1,S136H,0.0078125,0.78125,96760,293-noSA,no,D10,150,sialic acid decrease
+rep1,S136H,0.00390625,0.390625,38580,293-noSA,no,D10,150,sialic acid decrease
+rep1,R149T,0.5,50,5366000,293-noSA,no,D10,150,MHCII decrease
+rep1,R149T,0.25,25,3195000,293-noSA,no,D10,150,MHCII decrease
+rep1,R149T,0.125,12.5,1607000,293-noSA,no,D10,150,MHCII decrease
+rep1,R149T,0.0625,6.25,670600,293-noSA,no,D10,150,MHCII decrease
+rep1,R149T,0.03125,3.125,240100,293-noSA,no,D10,150,MHCII decrease
+rep1,R149T,0.015625,1.5625,117200,293-noSA,no,D10,150,MHCII decrease
+rep1,R149T,0.0078125,0.78125,39800,293-noSA,no,D10,150,MHCII decrease
+rep1,R149T,0.00390625,0.390625,37630,293-noSA,no,D10,150,MHCII decrease
+rep1,R227V,0.5,50,1656000,293-noSA,no,D10,150,sialic acid decrease
+rep1,R227V,0.25,25,1178000,293-noSA,no,D10,150,sialic acid decrease
+rep1,R227V,0.125,12.5,672000,293-noSA,no,D10,150,sialic acid decrease
+rep1,R227V,0.0625,6.25,293400,293-noSA,no,D10,150,sialic acid decrease
+rep1,R227V,0.03125,3.125,180600,293-noSA,no,D10,150,sialic acid decrease
+rep1,R227V,0.015625,1.5625,67920,293-noSA,no,D10,150,sialic acid decrease
+rep1,R227V,0.0078125,0.78125,39300,293-noSA,no,D10,150,sialic acid decrease
+rep1,R227V,0.00390625,0.390625,24380,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.5,50,987500,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.25,25,593200,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.125,12.5,348600,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.0625,6.25,163600,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.03125,3.125,100100,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.015625,1.5625,40330,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.0078125,0.78125,23880,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H,0.00390625,0.390625,15110,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.5,50,990000,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.25,25,667600,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.125,12.5,443600,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0625,6.25,295600,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.03125,3.125,125400,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.015625,1.5625,90800,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.0078125,0.78125,33340,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155H-R227V,0.00390625,0.390625,21980,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.5,50,1939000,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.25,25,1027000,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.125,12.5,636800,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.0625,6.25,299300,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.03125,3.125,150900,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.015625,1.5625,82790,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.0078125,0.78125,31120,293-noSA,no,D10,150,sialic acid decrease
+rep1,I155F,0.00390625,0.390625,22760,293-noSA,no,D10,150,sialic acid decrease
+rep1,WT,0.5,50,4368000,293-noSA,no,D10,150,control
+rep1,WT,0.25,25,2259000,293-noSA,no,D10,150,control
+rep1,WT,0.125,12.5,1229000,293-noSA,no,D10,150,control
+rep1,WT,0.0625,6.25,537800,293-noSA,no,D10,150,control
+rep1,WT,0.03125,3.125,271200,293-noSA,no,D10,150,control
+rep1,WT,0.015625,1.5625,103200,293-noSA,no,D10,150,control
+rep1,WT,0.0078125,0.78125,50270,293-noSA,no,D10,150,control
+rep1,WT,0.00390625,0.390625,16720,293-noSA,no,D10,150,control
+rep1,VSV-G,0.5,25,33400000,293-noSA,no,D10,150,control
+rep1,VSV-G,0.25,12.5,16630000,293-noSA,no,D10,150,control
+rep1,VSV-G,0.125,6.25,8440000,293-noSA,no,D10,150,control
+rep1,VSV-G,0.0625,3.125,5012000,293-noSA,no,D10,150,control
+rep1,VSV-G,0.03125,1.5625,3100000,293-noSA,no,D10,150,control
+rep1,VSV-G,0.015625,0.78125,1319000,293-noSA,no,D10,150,control
+rep1,VSV-G,0.0078125,0.390625,786100,293-noSA,no,D10,150,control
+rep1,VSV-G,0.00390625,0.1953125,353200,293-noSA,no,D10,150,control

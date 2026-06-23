@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}, "facet": {"spacing": 15}, "header": {"labelFontSize": 16, "labelOrient": "top", "titleFontSize": 0}, "title": {"fontSize": 16}}, "data": {"name": "data-db86a34e8343f2230d40cb079fe29b38"}, "facet": {"field": "strain", "sort": ["VSV-G"], "type": "nominal"}, "spec": {"mark": {"type": "point", "filled": true, "opacity": 0.9, "size": 150, "stroke": "black", "strokeWidth": 1}, "encoding": {"color": {"field": "strain", "legend": {"labelFontSize": 12, "labelLimit": 0, "orient": "bottom", "title": "virus", "titleFontSize": 13}, "scale": {"range": ["#E69F00", "#56B4E9", "#999999", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7"]}, "type": "nominal"}, "tooltip": [{"field": "strain", "type": "nominal"}, {"field": "cell_line", "type": "nominal"}, {"field": "fold_change", "format": ".2f", "type": "quantitative"}], "x": {"axis": {"labelAngle": 90, "labelFontSize": 14, "labelLimit": 0}, "field": "cell_line", "sort": ["293-SA23", "293-SA26", "293-noSA", "293-noSA-human-MHCII-0301", "293-noSA-human-MHCII-1503", "293-noSA-tufted-duck-MHCII"], "title": null, "type": "nominal"}, "y": {"axis": {"format": ".2f", "labelFontSize": 12, "titleFontSize": 14}, "field": "fold_change", "scale": {"domain": [0.1486220304779271, 2.0], "type": "log"}, "title": "Fold Change vs 293-noSA", "type": "quantitative"}}, "height": 140, "width": 120}, "columns": 6, "resolve": {"scale": {"x": "shared", "y": "shared"}}, "title": "virus fold changes on different cell lines", "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-db86a34e8343f2230d40cb079fe29b38": [{"strain": "VSV-G", "subtype": "VSV-G", "host": "cattle", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "cell_line": "293-SA23", "fold_change": 0.328255398065969, "fold_change_sem": 0.031011337110114775, "lower_bound": 0.2972440609558542, "upper_bound": 0.35926673517608376, "baseline_titer": 7549000.0, "test_titer": 2478000.0, "count": 2}, {"strain": "VSV-G", "subtype": "VSV-G", "host": "cattle", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "cell_line": "293-SA26", "fold_change": 0.6614121075639158, "fold_change_sem": 0.05105798968912416, "lower_bound": 0.6103541178747917, "upper_bound": 0.7124700972530399, "baseline_titer": 7549000.0, "test_titer": 4993000.0, "count": 2}, {"strain": "VSV-G", "subtype": "VSV-G", "host": "cattle", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "cell_line": "293-noSA-human-MHCII-0301", "fold_change": 0.8377268512385746, "fold_change_sem": 0.09930820546513275, "lower_bound": 0.7384186457734419, "upper_bound": 0.9370350567037073, "baseline_titer": 7549000.0, "test_titer": 6324000.0, "count": 2}, {"strain": "VSV-G", "subtype": "VSV-G", "host": "cattle", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "cell_line": "293-noSA-human-MHCII-1503", "fold_change": 0.5570274208504438, "fold_change_sem": 0.06334021316841457, "lower_bound": 0.4936872076820292, "upper_bound": 0.6203676340188583, "baseline_titer": 7549000.0, "test_titer": 4205000.0, "count": 2}, {"strain": "VSV-G", "subtype": "VSV-G", "host": "cattle", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "cell_line": "293-noSA-tufted-duck-MHCII", "fold_change": 0.7497681812160552, "fold_change_sem": 0.07294468312093218, "lower_bound": 0.676823498095123, "upper_bound": 0.8227128643369873, "baseline_titer": 7549000.0, "test_titer": 5660000.0, "count": 2}, {"strain": "VSV-G", "subtype": "VSV-G", "host": "cattle", "Genbank": null, "plasmid_log_no": null, "protein_sequence": null, "cell_line": "293-noSA", "fold_change": 1.0, "fold_change_sem": 0.0, "lower_bound": 1.0, "upper_bound": 1.0, "baseline_titer": 7549000.0, "test_titer": 7549000.0, "count": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
