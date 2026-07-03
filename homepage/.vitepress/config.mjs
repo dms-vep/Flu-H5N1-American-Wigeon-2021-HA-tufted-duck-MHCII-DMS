@@ -3,9 +3,9 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
-  title: "Pseudovirus deep mutational scanning of H5 HA for MHC-II interaction analysis",
+  title: "How mutations to an H5 HA affect its interaction with tufted duck MHC-II",
   description:
-    "Data, figures, and analysis for H5 HA deep mutational scanning",
+    "Pseudovirus deep mutational scanning of how mutations to HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) affects its interaction with tufted duck MHC-II",
   base: "/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/",
   appearance: false,
   themeConfig: {
