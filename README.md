@@ -3,7 +3,10 @@
 **ADD CITATION when available**
 
 This repository has the code and data.
-For rendering of key results and an easy-to-interpret summary, see the documentation of the analysis at [https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/](https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/).
+Specifically:
+ - For interactive plots visualizing key results, see [https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/](https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/).
+ - For a single CSV with the QC-ed measurements, see [results/summaries/tufted_duck_MHCII_binding.csv](results/summaries/tufted_duck_MHCII_binding.csv)
+ - For all numerical results, see [./results/](results)
 
 ## Organization of this repo
 
