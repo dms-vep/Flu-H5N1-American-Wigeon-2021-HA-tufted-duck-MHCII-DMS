@@ -1,4 +1,6 @@
-# Deep mutational scanning of HA mfrom A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) in the context of tufted duck MHC-II
+# Pseudovirus deep mutational scanning of HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) for entry and binding to tufted duck MHC-II
+
+**ADD CITATION when available**
 
 This repository has the code and data.
 For rendering of key results and an easy-to-interpret summary, see the documentation of the analysis at [https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/](https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/).
