@@ -69,6 +69,16 @@ results/receptor_affinity/averages/*
 !results/receptor_affinity/averages/*_mut_effect.csv
 !results/receptor_affinity/averages/*_mut_icXX.csv
 
+!results/MHCII_binding
+results/MHCII_binding/*
+!results/MHCII_binding/by_selection
+results/MHCII_binding/by_selection/*.pickle
+!results/MHCII_binding/by_selection/*.csv
+!results/MHCII_binding/averages
+results/MHCII_binding/averages/*
+!results/MHCII_binding/averages/*_mut_effect.csv
+!results/MHCII_binding/averages/*_mut_icXX.csv
+
 !results/summaries
 results/summaries/*
 !results/summaries/*.csv

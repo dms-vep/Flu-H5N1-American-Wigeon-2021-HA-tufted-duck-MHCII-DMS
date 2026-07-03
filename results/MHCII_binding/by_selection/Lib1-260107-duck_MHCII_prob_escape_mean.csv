@@ -1,0 +1,49 @@
+sample,concentration,use_in_fit,n_substitutions,n_variants,censored,probability escape
+Lib1-260107-duck_MHCII_006,0.04,False,0,6179,"censored to [0, 1]",0.9875
+Lib1-260107-duck_MHCII_006,0.04,False,1,14979,"censored to [0, 1]",0.9777
+Lib1-260107-duck_MHCII_006,0.04,False,2,2628,"censored to [0, 1]",0.9591
+Lib1-260107-duck_MHCII_006,0.04,False,>2,230,"censored to [0, 1]",0.9473
+Lib1-260107-duck_MHCII_01,0.12,False,0,6179,"censored to [0, 1]",0.6708
+Lib1-260107-duck_MHCII_01,0.12,False,1,14979,"censored to [0, 1]",0.6634
+Lib1-260107-duck_MHCII_01,0.12,False,2,2628,"censored to [0, 1]",0.6549
+Lib1-260107-duck_MHCII_01,0.12,False,>2,230,"censored to [0, 1]",0.6284
+Lib1-260107-duck_MHCII_02,0.37,False,0,6179,"censored to [0, 1]",0.714
+Lib1-260107-duck_MHCII_02,0.37,False,1,14979,"censored to [0, 1]",0.7073
+Lib1-260107-duck_MHCII_02,0.37,False,2,2628,"censored to [0, 1]",0.696
+Lib1-260107-duck_MHCII_02,0.37,False,>2,230,"censored to [0, 1]",0.6849
+Lib1-260107-duck_MHCII_04,1.11,False,0,6179,"censored to [0, 1]",0.5827
+Lib1-260107-duck_MHCII_04,1.11,False,1,14979,"censored to [0, 1]",0.5749
+Lib1-260107-duck_MHCII_04,1.11,False,2,2628,"censored to [0, 1]",0.5681
+Lib1-260107-duck_MHCII_04,1.11,False,>2,230,"censored to [0, 1]",0.5403
+Lib1-260107-duck_MHCII_10,10,True,0,6179,"censored to [0, 1]",0.5719
+Lib1-260107-duck_MHCII_10,10,True,1,14979,"censored to [0, 1]",0.5612
+Lib1-260107-duck_MHCII_10,10,True,2,2628,"censored to [0, 1]",0.5407
+Lib1-260107-duck_MHCII_10,10,True,>2,230,"censored to [0, 1]",0.4998
+Lib1-260107-duck_MHCII_4,3.33,True,0,6179,"censored to [0, 1]",0.5215
+Lib1-260107-duck_MHCII_4,3.33,True,1,14979,"censored to [0, 1]",0.5115
+Lib1-260107-duck_MHCII_4,3.33,True,2,2628,"censored to [0, 1]",0.4981
+Lib1-260107-duck_MHCII_4,3.33,True,>2,230,"censored to [0, 1]",0.4898
+Lib1-260107-duck_MHCII_006,0.04,False,0,6179,not censored,1.461
+Lib1-260107-duck_MHCII_006,0.04,False,1,14979,not censored,1.468
+Lib1-260107-duck_MHCII_006,0.04,False,2,2628,not censored,1.472
+Lib1-260107-duck_MHCII_006,0.04,False,>2,230,not censored,1.478
+Lib1-260107-duck_MHCII_01,0.12,False,0,6179,not censored,0.6758
+Lib1-260107-duck_MHCII_01,0.12,False,1,14979,not censored,0.6723
+Lib1-260107-duck_MHCII_01,0.12,False,2,2628,not censored,0.6701
+Lib1-260107-duck_MHCII_01,0.12,False,>2,230,not censored,0.6411
+Lib1-260107-duck_MHCII_02,0.37,False,0,6179,not censored,0.7208
+Lib1-260107-duck_MHCII_02,0.37,False,1,14979,not censored,0.7209
+Lib1-260107-duck_MHCII_02,0.37,False,2,2628,not censored,0.7177
+Lib1-260107-duck_MHCII_02,0.37,False,>2,230,not censored,0.7074
+Lib1-260107-duck_MHCII_04,1.11,False,0,6179,not censored,0.5854
+Lib1-260107-duck_MHCII_04,1.11,False,1,14979,not censored,0.5785
+Lib1-260107-duck_MHCII_04,1.11,False,2,2628,not censored,0.5741
+Lib1-260107-duck_MHCII_04,1.11,False,>2,230,not censored,0.549
+Lib1-260107-duck_MHCII_10,10,True,0,6179,not censored,0.574
+Lib1-260107-duck_MHCII_10,10,True,1,14979,not censored,0.5686
+Lib1-260107-duck_MHCII_10,10,True,2,2628,not censored,0.55
+Lib1-260107-duck_MHCII_10,10,True,>2,230,not censored,0.5024
+Lib1-260107-duck_MHCII_4,3.33,True,0,6179,not censored,0.5227
+Lib1-260107-duck_MHCII_4,3.33,True,1,14979,not censored,0.5138
+Lib1-260107-duck_MHCII_4,3.33,True,2,2628,not censored,0.5018
+Lib1-260107-duck_MHCII_4,3.33,True,>2,230,not censored,0.4935
