@@ -26,10 +26,10 @@ rule nt_changes_to_codon:
 compare_entry_floor_mut_effects = -3  # before taking difference in cell entry, floor at this
 # cells to compare
 cells_to_compare = [
-    "SA23",
-    "SA26",
     "SA23 SA26 mix",
     "tufted duck MHCII",
+    "SA23",
+    "SA26",
 ]
 
 rule cell_entry_mut_diffs:
