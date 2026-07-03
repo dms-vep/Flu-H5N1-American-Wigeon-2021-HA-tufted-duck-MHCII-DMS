@@ -8,7 +8,7 @@ hero:
 features:
   - title: Entry in MHC-II vs sialic-acid expressing cells
     details: Effects of H5 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid
-    link: /cell_entry_difference
+    link: /entry
   - title: Binding to MHC-II
     details: Effects of H5 HA mutations on binding to tufted duck MHC-II VLPs
     link: /MHCII_binding_H5
