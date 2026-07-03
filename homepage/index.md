@@ -2,40 +2,58 @@
 layout: home
 
 hero:
-  name: Pseudovirus deep mutational scanning of H5 influenza hemagglutinin for defining its interaction with tufted duck MHC-II 
-  tagline: Interactive visualizations for effects of mutations in H5 HA on its interaction with tufted duck MHC-II
+  name: Effects of mutations to an H5 HA on its interaction with tufted duck MHC-II
+  tagline: Pseudovirus deep mutational scanning of how mutations to HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) affects its interaction with tufted duck MHC-II
   image: logo.png
 features:
-  - title: Entry differences
-    details: Effects of mutations in H5 on entry into tufted duck MHC-II or sialic acids expressing cells
+  - title: Entry in MHC-II vs sialic-acid expressing cells
+    details: Effects of H5 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid
     link: /cell_entry_difference
-  - title: Tufted duck MHC-II binding
-    details: Effects of mutations in H5 HA on binding to tufted duck MHC-II VLPs
+  - title: Binding to MHC-II
+    details: Effects of H5 HA mutations on binding to tufted duck MHC-II VLPs
     link: /MHCII_binding_H5
-  - title: Structural model of H5 HA bound to tufted duck MHC-II
-    details: Molecular interaction between H5 HA and tufted duck MHC-II
+  - title: Structural model of HA bound to MHC-II
+    details: Cryo-EM based model of H5 HA bound to tufted duck MHC-II
     link: /H5_MHCII_structure
+  - title: Effects of H7 HA mutations on MHC-II interaction
+    details: Deep mutational scanning of how a H7 HA interacts with tufted duck MHC-II
+    link: https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/
+  - title: Effects of MHC-II mutations on interaction with HA
+    details: Deep mutational scanning of how mutations to tufted duck MHC-II affect its interaction with a H5 HA
+    link: https://dms-vep.org/Tufted-duck-MHCII-DMS/
+  - title: HA trees annotated by MHC-II interactions
+    details: Nextstrain phylogenetic trees of different HA subtypes annotated by MHC-II binding
+    link: trees
+  - title: HA sequence numbering
+    details: Explanation of the HA sequence numbering scheme used here
+    link: /numbering
 ---
 
-# Overview
+## Overview
 
-This website contains visualizations from experiments designed to define the molecular interactions between influenza virus hemagglutinin (HA) and MHC-II proteins. We performed pseudovirus-based deep mutational scanning of H5 HA to measure the effects of mutations on tufted duck MHC-II–mediated cell entry and binding to tufted duck MHC-II. The deep mutational scanning libraries are based on HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) strain. 
+This website provides interactive visualizations and links to numerical data from pseudovirus deep mutational scanning measuring how mutations to an H5 HA (from A/American Wigeon/South Carolina/USDA-000345-001/2021) affect its interaction with tufted duck MHC-II.
 
-The links in the boxes above direct you to pages with details about the experimental measurements of mutation effects on different phenotypes.
+For details about the study, see [Dadonaite et al. (2026)]() [**ADD CITATION**].
 
-For details about the study, see [Dadonaite et al. (2026)]().
+Visualizations and data can be accessed by clicking the gray boxes above for each type of measurement, namely:
+ - [Effects of H5 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid](cell_entry_difference)
+ - [Effects of H5 HA mutations on binding to tufted duck MHC-II](MHCII_binding_H5)
+ - [Structural model of H5 HA bound to tufted duck MHC-II](H5_MHCII_structure)
+ - [Effects of mutations to a H7 HA on interaction with MHC-II](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/)
+ - [Effects of mutations to tufted duck MHC-II on its interaction with H5 HA](https://dms-vep.org/Tufted-duck-MHCII-DMS/)
+ - [Nextstrain phylogenetic trees of different HA subtypes annotated by MHC-II binding](trees)
+ - [Explanation of the H3 HA numbering scheme used in plots shown here](numbering)
 
-## H5 HA deep mutational scanning
+For numerical values of the effects of H5 HA mutations (H3 numbering) on interaction with MHC-II, see [this CSV](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master/results/summaries/tufted_duck_MHCII_binding.csv).
 
-Detailed documentation and the computational pipeline for the H5 HA deep mutational scanning experiments are available here:
+For the full computer code and all numerical data files, see [the GitHub repository](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS).
+For full documentation of the computational pipeline, see the [Appendix](appendix.html){target="_self"}.
 
-* [GitHub repository](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS)
-* [Documentation appendix](https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/)
 
-## Additional deep mutational scanning libraries
+## Biosafety
+The experimental measurements were made using [pseudovirus deep mutational scanning](https://doi.org/10.1016/j.cell.2023.02.001) with [lentiviral particles pseudotyped](https://blog.addgene.org/viral-vectors-101-pseudotyping) with HA.
+These pseudoviruses do not encode any viral proteins other than HA, and so are only able to undergo a single round of cell entry and are **not** fully replicative agents capable of spreading or causing disease.
+They therefore provide a safe way to study mutations to the HA protein at biosafety-level-2 outside the context of actual pathogenic influenza.
+The specific H5 HA pseudovirus deep mutational scanning libraries used for these experiments have [been previously described](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002916).
 
-To provide a more complete picture of HA-MHCII interaction we also performed pseudovirus-based deep mutational scanning of H7 HA and tufted duck MHC-II. Visit the following sites for data related to those libraries:
-
-* **H7 HA deep mutational scanning:** [website](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/) and [GitHub repository](https://github.com/dms-vep/Flu-H7-Anhui13-MHCII-binding)
-* **Tufted duck MHC-II deep mutational scanning:** [website](https://dms-vep.org/Tufted-duck-MHCII-DMS/) and [GitHub repository](https://github.com/dms-vep/Tufted-duck-MHCII-DMS)
-
+See the biosafety statement in the paper about this study ([Dadonaite et al. (2026)]() [**ADD CITATION**]) for additional details.
