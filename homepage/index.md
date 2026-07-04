@@ -14,7 +14,7 @@ features:
     link: /binding
   - title: Structural model of HA bound to MHC-II
     details: Cryo-EM based model of H5 HA bound to tufted duck MHC-II
-    link: /H5_MHCII_structure
+    link: /structural_model
   - title: Effects of H7 HA mutations on MHC-II interaction
     details: Deep mutational scanning of how a H7 HA interacts with tufted duck MHC-II
     link: https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/
