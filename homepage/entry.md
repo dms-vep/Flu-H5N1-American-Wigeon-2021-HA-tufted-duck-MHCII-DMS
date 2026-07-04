@@ -24,6 +24,7 @@ Sites with large positive or negative values have mutations that are more favora
 Clicking on a site in the line plot makes the scatter plot to the right display the mutation-level effects for that site in the two cell lines.
 It also makes the heat maps at bottom show the effects of all mutations at that site (and neighboring sites) on entry in all cell lines. 
 In the heat maps, red shades indicates a mutation impairs entry, blue indicates a mutation enhances on entry, grey indicates no mutationwas made for a mutation, and `x` indicates the wildtype amino acid in the A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) HA.
+Mouse over mutations on the heatmap for details.
 
 Click on the box in the upper right of the below plot to expand it to full page.
 
@@ -33,7 +34,7 @@ Click on the box in the upper right of the below plot to expand it to full page.
 
 Additional relevant links:
 
- - [standalone link to the heatmaps shown above](htmls/compare_cell_entry_site_zoom.html){target="_self"}
+ - [standalone link to the chart shown above](htmls/compare_cell_entry_site_zoom.html){target="_self"}
  - [heatmap showing effects of all mutations on all cell lines](htmls/entry_all_cells_overlaid.html){target="_self"}
  - [comparable plots for a H7 rather than H5 HA](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/)
 
