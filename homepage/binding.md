@@ -41,5 +41,5 @@ Red indicates sites where most mutations decrease MHCII-VLP binding and blue ind
 
 ## Numerical values of mutation effects on MHC-II binding
 For numerical data, see the following CSVs; note that *site* refers to [H3 numbering](numbering):
-  - [Effects of mutation on MHC-II binding after recommended QC](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master/results/summaries/tufted_duck_MHCII_binding.csv) 
+  - [Effects of mutations on MHC-II binding after recommended QC](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master/results/summaries/tufted_duck_MHCII_binding.csv) 
   - [Measured effects on MHC-II binding with full QC details but QC not pre-applied to numerical values](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master/results/MHCII_binding/averages/tufted_duck_MHCII_binding_mut_effect.csv) (only use this file if you understand QC filters)

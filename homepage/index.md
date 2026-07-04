@@ -36,9 +36,9 @@ This website provides interactive visualizations and links to numerical data fro
 For details about the study, see [Dadonaite et al. (2026)]() [**ADD CITATION**].
 
 Visualizations and data can be accessed by clicking the gray boxes above for each type of measurement, namely:
- - [Effects of H5 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid](cell_entry_difference)
- - [Effects of H5 HA mutations on binding to tufted duck MHC-II](MHCII_binding_H5)
- - [Structural model of H5 HA bound to tufted duck MHC-II](H5_MHCII_structure)
+ - [Effects of H5 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid](entry)
+ - [Effects of H5 HA mutations on binding to tufted duck MHC-II](binding)
+ - [Structural model of H5 HA bound to tufted duck MHC-II](structural_model)
  - [Effects of mutations to a H7 HA on interaction with MHC-II](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/)
  - [Effects of mutations to tufted duck MHC-II on its interaction with H5 HA](https://dms-vep.org/Tufted-duck-MHCII-DMS/)
  - [Nextstrain phylogenetic trees of different HA subtypes annotated by MHC-II binding](trees)
