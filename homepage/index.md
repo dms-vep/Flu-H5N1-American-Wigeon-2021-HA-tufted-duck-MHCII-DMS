@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: Effects of mutations to an H5 HA on its interaction with tufted duck MHC-II
-  tagline: Pseudovirus deep mutational scanning of how mutations to HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) affects its interaction with tufted duck MHC-II
+  name: "Effects of mutations to an H5 HA on its interaction with tufted duck MHC-II"
+  tagline: "Pseudovirus deep mutational scanning of how mutations to HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) affects its interaction with tufted duck MHC-II"
   image: logo.png
 features:
   - title: Entry in MHC-II vs sialic-acid expressing cells
