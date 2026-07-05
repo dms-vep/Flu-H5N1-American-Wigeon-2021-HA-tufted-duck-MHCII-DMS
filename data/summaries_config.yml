@@ -52,26 +52,16 @@ tufted_duck_MHCII_binding:
       le_filters:
         MHCII binding_std: 2.6
   other_phenotypes:
-    entry in tufted duck MHCII cells:  
+    entry tufted duck MHCII cells:  
       <<: *cell_entry_default
       csv: results/func_effects/averages/293-noSA-tufted-duck-MHCII_func_effects.csv
       init_min_value: -6  # initial min value in slider        
-    entry in SA23 cells:  
+    entry SA23 SA26 mix cells:  
       <<: *cell_entry_default
-      csv: results/func_effects/averages/293_SA23_low-sera_entry_func_effects.csv
+      csv: results/func_effects/averages/SA23_SA26_low-sera_entry_func_effects.csv
       stat: effect  # column to plot
       init_min_value: -3  # initial min value in slider        
-    entry difference between noSA tufted duck MHCII and SA23 cells:  
-      csv: results/func_effect_diffs/tufted-duck-MHCII_vs_SA23_entry_diffs.csv
-      stat: difference  # column to plot
-      positive_color: "#009E73"  # green
-      negative_color: "#F0E442"  # yellow
-      max_at_least: 2
-      min_at_least: -3
-      init_min_value: -6  # initial min value in slider
-      le_filters:
-        difference_std: 3
-    entry difference between noSA tufted duck MHCII cells and SA26 SA23 cell mix:  
+    entry difference MHCII vs SA cells:  
       csv: results/func_effect_diffs/tufted-duck-MHCII_vs_SA26-SA23_entry_diffs.csv
       stat: difference  # column to plot
       positive_color: "#009E73"  # green
@@ -81,4 +71,3 @@ tufted_duck_MHCII_binding:
       init_min_value: -6  # initial min value in slider
       le_filters:
         difference_std: 3
-
