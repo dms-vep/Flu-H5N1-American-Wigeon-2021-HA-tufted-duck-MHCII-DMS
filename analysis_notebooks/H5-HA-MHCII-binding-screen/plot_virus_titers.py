@@ -937,6 +937,26 @@ def create_fold_change_plot(fold_change_data, virus_order=None, cell_order=None,
 
     return chart
 
+def create_pseudovirus_titer_summary(fold_change_data):
+    """Create summary spreadsheet with selected columns and renamed headers for H5_pseudovirus_titer_summary.csv"""
+
+    summary_data = fold_change_data[[
+        'strain',
+        'cell_line',
+        'test_titer',
+        'fold_change',
+        'clade',
+        'protein_sequence'
+    ]].copy()
+
+    # Rename columns
+    summary_data = summary_data.rename(columns={
+        'test_titer': 'titer(RLU per ul)',
+        'fold_change': 'fold_change_compared_to_noSA'
+    })
+
+    return summary_data
+
 def create_cell_line_scatter_plot(data_qc_pass, cell_order=None, color_scale=None):
     """Create a scatter plot with cell lines on x-axis and titers on y-axis, with median annotations"""
 
@@ -1319,6 +1339,11 @@ def main():
         fold_change_data = calculate_fold_changes(data_pass, baseline_cell_line='293-noSA')
         fold_change_data.to_csv('results/virus_titer_fold_changes.csv', index=False)
         print("Saved: results/virus_titer_fold_changes.csv")
+
+        # Create pseudovirus titer summary spreadsheet
+        pseudovirus_summary = create_pseudovirus_titer_summary(fold_change_data)
+        pseudovirus_summary.to_csv('results/H5_pseudovirus_titer_summary.csv', index=False)
+        print("Saved: results/H5_pseudovirus_titer_summary.csv")
     else:
         print("No viruses passed QC - skipping fold-change analysis")
         fold_change_data = None

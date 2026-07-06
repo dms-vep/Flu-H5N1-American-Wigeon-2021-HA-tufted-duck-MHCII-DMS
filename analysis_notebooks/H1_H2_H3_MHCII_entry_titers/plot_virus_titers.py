@@ -1239,6 +1239,15 @@ def main():
         fold_change_data = calculate_fold_changes(data_pass, baseline_cell_line='293-noSA')
         fold_change_data.to_csv('results/virus_titer_fold_changes.csv', index=False)
         print("Saved: results/virus_titer_fold_changes.csv")
+
+        # Create pseudovirus titer summary with selected columns and renamed headers
+        pseudovirus_summary = fold_change_data[['strain', 'subtype', 'host', 'Genbank', 'cell_line', 'test_titer', 'fold_change', 'protein_sequence']].copy()
+        pseudovirus_summary = pseudovirus_summary.rename(columns={
+            'test_titer': 'titer(RLU per ul)',
+            'fold_change': 'fold_change_compared_to_noSA'
+        })
+        pseudovirus_summary.to_csv('results/pseudovirus_titer_summary.csv', index=False)
+        print("Saved: results/pseudovirus_titer_summary.csv")
     else:
         print("No viruses passed QC - skipping fold-change analysis")
         fold_change_data = None
