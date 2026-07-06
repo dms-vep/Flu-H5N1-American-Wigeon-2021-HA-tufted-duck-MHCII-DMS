@@ -93,26 +93,6 @@ escape_plot_kwargs_default: &escape_plot_kwargs_default
   init_site_statistic: sum
   site_zoom_bar_color_col: region  # supplied in `site_numbering_map`
 
-
-# Specify any statistics (usually functional effects) for which you want to enable
-# sliders that hide data. Keyed by statistic name, then next dict gives:
-#   - `csv`: CSV file with the data, should have columns "site" and "mutant"
-#   - `csv_col`: column in the CSV with the data
-#   - `init`: initial value of slider
-plot_hide_stats_default: &plot_hide_stats_default
-  functional effect:
-    csv: results/func_effects/averages/SA23_SA26_low-sera_entry_func_effects.csv
-    csv_col: effect
-    init: -3
-    min_filters:
-      times_seen: 2
-  MHCII binding:
-    csv: results/MHCII_binding/averages/MHCII_mut_effect.csv
-    csv_col: MHCII binding_mean
-    init: -3
-    min_filters:
-      times_seen: 2
-
 # --------------------------------------------------------------------------------------
 # Note that for soluble receptor affinity selections, you define selection experiments
 # exactly analogously to `antibody_selections` in `receptor_selections`, using `antibody`
@@ -132,10 +112,10 @@ MHCII_binding_polyclonal_params_default: &MHCII_binding_polyclonal_params_defaul
 
 # default stats to hide cells on plot of receptor affinity
 MHCII_binding_plot_hide_stats_default: &MHCII_binding_plot_hide_stats_default
-  functional effect:
+  entry in SA23 SA26 cell mix:
     csv: results/func_effects/averages/SA23_SA26_low-sera_entry_func_effects.csv
     csv_col: effect
-    init: -2
+    init: -3
     min_filters:
       times_seen: 2
 
@@ -252,35 +232,8 @@ MHCII_binding_selections:
 # Configuration for averaging/plotting selections for same antibody or soluble receptor
 # --------------------------------------------------------------------------------------
 
-# Average/plot escape values from different selections with the same antibody/serum using
-# `avg_antibody_escape`. Each key is the name of an antibody/serum that has the following values:
-#   - `selections`: list of antibody selections for which we average escape
-#   - `icXX`: for the plot showing fold-change in ICXX (eg, IC90), what is XX (eg, 90)
-#   - `escape_plot_kwargs`: keyword arguments for `PolyclonalAverage.mut_escape_plot`
-#   - `plot_hide_stats`: dict giving data frames with stats for slider to hide mutations
-
-# For soluble receptor experiments used to measure receptor affinity, do exactly the same
-# except under the key `avg_receptor_affinity` rather than `avg_antibody_escape`.
-
-# Define defaults for each antibody/serum, used via the merge (<<) operator
-avg_antibody_escape_default: &avg_antibody_escape_default
-  icXX: 50
-  escape_plot_kwargs:
-    <<: *escape_plot_kwargs_default
-    avg_type: median
-    addtl_slider_stats:
-      times_seen: 2
-      escape_std: 1
-    addtl_slider_stats_as_max: [escape_std]
-    per_model_tooltip: true
-  plot_hide_stats: *plot_hide_stats_default
-
-# Define the antibodies/sera to average
-avg_antibody_escape:
-
 # Define the receptor affinity experiments to average
 avg_MHCII_binding_default: &avg_MHCII_binding_default
-  <<: *avg_antibody_escape_default
   escape_plot_kwargs:
     <<: *escape_plot_kwargs_default
     avg_type: median
