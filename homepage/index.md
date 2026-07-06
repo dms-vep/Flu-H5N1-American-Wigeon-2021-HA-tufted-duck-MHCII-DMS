@@ -21,8 +21,8 @@ features:
   - title: Effects of MHC-II mutations on interaction with HA
     details: Deep mutational scanning of how mutations to tufted duck MHC-II affect its interaction with a H5 HA
     link: https://dms-vep.org/Tufted-duck-MHCII-DMS/
-  - title: H5 HA pseudovirus titers in different cell lines
-    details: Entry of different H5 HA pseudoviruses in MHC-II vs sialic-acid expressing cells
+  - title: HA pseudovirus titers in different cell lines
+    details: Titers of pseudoviruses pseudotyped with HAs from different subtypes in MHC-II vs sialic-acid expressing cells
     link: entry_titers
   - title: HA trees annotated by MHC-II interactions
     details: Nextstrain phylogenetic trees of different HA subtypes annotated by MHC-II binding
