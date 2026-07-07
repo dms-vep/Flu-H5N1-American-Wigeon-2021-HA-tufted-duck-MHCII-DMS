@@ -220,6 +220,7 @@ def _(
             .mark_line(strokeWidth=1.5, point=alt.OverlayMarkDef(size=chart_step * 4.5, shape=shape))
             .encode(
                 TiterCh("titer", scale=titer_scale, axis=titer_axis, title=titer_title),
+                tooltip=["strain", "cell_line", alt.Tooltip("titer", format=".3g")],
             )
         )
 

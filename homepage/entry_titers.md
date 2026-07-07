@@ -16,7 +16,8 @@ We measured titers of pseudoviruses pseudotyped with HAs from naturally occurrin
 * **SA26 cells**: cells expressing only α2,6-linked sialic acids.
 
 Below we report the titers for each subtype in terms of both the titers normalized to those on the noSA cells, and the raw titers.
-For each subtype we show interactive plots (you can hide or display a specific cell line by clicking on it in the legend), and then give links to files with the numerical titers.
+For each subtype there are interactive plots: you can hide or display a specific cell line by clicking on it in the legend, and mouse over points for details.
+There is also a link to files with the numerical titers.
 
 [[toc]]
 
