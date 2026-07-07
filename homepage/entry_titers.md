@@ -24,13 +24,13 @@ The interactive plot below shows pseudovirus titers normalized to titers on noSA
 You can display or hide specific cell lines by clicking the corresponding cells in the legend.
 
 <Figure caption="H5 HA-pseudotyped lentivirus titers on different cell lines, normalized to noSA cells">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H5_titer-relative-to-noSA_horizontal.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H5_titer-relative-to-noSA_horizontal.html'"></Altair>
 </Figure>
 
 The plot below shows the same data as above but as raw titers measured on each cell line.
 
 <Figure caption="Raw titers of H5 HA-pseudotyped lentiviruses on different cell lines">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H5_raw-titer_horizontal.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H5_raw-titer_horizontal.html'"></Altair>
 </Figure>
 
 ## Titers of H1, H2 and H3 HA-pseudotyped viruses
@@ -40,25 +40,25 @@ Here, we measure titers of pseudoviruses pseudotyped with HAs from H1, H2 and H3
 The interactive plot below shows pseudovirus titers normalized to titers on noSA cells. Viruses are arranged by phylogenetic clade.
 
 <Figure caption="H1 HA-pseudotyped lentivirus titers on different cell lines, normalized to noSA cells">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H1_titer-relative-to-noSA_vertical.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H1_titer-relative-to-noSA_vertical.html'"></Altair>
 </Figure>
 <Figure caption="H2 HA-pseudotyped lentivirus titers on different cell lines, normalized to noSA cells">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H3_titer-relative-to-noSA_vertical.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H2_titer-relative-to-noSA_vertical.html'"></Altair>
 </Figure>
 <Figure caption="H3 HA-pseudotyped lentivirus titers on different cell lines, normalized to noSA cells">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H3_titer-relative-to-noSA_vertical.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H3_titer-relative-to-noSA_vertical.html'"></Altair>
 </Figure>
 
 The plots below shows the same data as above but as raw titers measured on each cell line.
 
 <Figure caption="H1 HA-pseudotyped lentivirus titers on different cell lines">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H1_raw-titer_vertical.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H1_raw-titer_vertical.html'"></Altair>
 </Figure>
 <Figure caption="H2 HA-pseudotyped lentivirus titers on different cell lines">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H1_raw-titer_vertical.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H2_raw-titer_vertical.html'"></Altair>
 </Figure>
 <Figure caption="H3 HA-pseudotyped lentivirus titers on different cell lines">
-    <Altair :showShadow="true" :spec-url="'https://raw.githubusercontent.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/refs/heads/master/analysis_notebooks/strain_titers_with_trees/charts/H1_raw-titer_vertical.html'"></Altair>
+    <Altair :showShadow="true" :spec-url="'htmls/H3_raw-titer_vertical.html'"></Altair>
 </Figure>
 
 ## Numerical pseudovirus entry titer data
