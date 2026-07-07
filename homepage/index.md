@@ -21,8 +21,8 @@ features:
   - title: Effects of MHC-II mutations on interaction with HA
     details: Deep mutational scanning of how mutations to tufted duck MHC-II affect its interaction with a H5 HA
     link: https://dms-vep.org/Tufted-duck-MHCII-DMS/
-  - title: HA pseudovirus titers in different cell lines
-    details: Titers of pseudoviruses pseudotyped with HAs from different subtypes in MHC-II vs sialic-acid expressing cells
+  - title: Titers for natural HAs in MHC-II or sialic acid cells
+    details: Titers of pseudoviruses with HAs from natural H5, H1, H2, or H3 strains on MHC-II or sialic-acid expressing cells
     link: entry_titers
   - title: HA trees annotated by MHC-II interactions
     details: Nextstrain phylogenetic trees of different HA subtypes annotated by MHC-II binding
@@ -44,7 +44,7 @@ Visualizations and data can be accessed by clicking the gray boxes above for eac
  - [Structural model of H5 HA bound to tufted duck MHC-II](structural_model)
  - [Effects of mutations to a H7 HA on interaction with MHC-II](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/)
  - [Effects of mutations to tufted duck MHC-II on its interaction with H5 HA](https://dms-vep.org/Tufted-duck-MHCII-DMS/)
- - [H5 HA pseudovirus titers in different cell lines](entry_titers)
+ - [Titers for natural HAs in MHC-II or sialic acid cells](entry_titers)
  - [Nextstrain phylogenetic trees of different HA subtypes annotated by MHC-II binding](trees)
  - [Explanation of the H3 HA numbering scheme used in plots shown here](numbering)
 

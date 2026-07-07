@@ -234,3 +234,35 @@ docs["Additional plots"] = {
     "Entry difference and MHCII binding correlations":
         rules.difference_binding_correlations.output.corr_chart   
 }
+
+
+# Add titer data to Appendix  -----------------------------------------------------------
+
+docs["Entry titers measured for pseudoviruses with specific HAs from natural strains"] = {
+    "Interactive charts" : {
+        # H5
+        "H5 HAs, titers normalized to noSA cells (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H5_titer-relative-to-noSA_horizontal.html",
+        "H5 HAs, titers normalized to noSA cells (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H5_titer-relative-to-noSA_vertical.html",
+        "H5 HAs, raw titers (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H5_raw-titer_horizontal.html",
+        "H5 HAs, raw titers (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H5_raw-titer_vertical.html",
+        # H1
+        "H1 HAs, titers normalized to noSA cells (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H1_titer-relative-to-noSA_horizontal.html",
+        "H1 HAs, titers normalized to noSA cells (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H1_titer-relative-to-noSA_vertical.html",
+        "H1 HAs, raw titers (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H1_raw-titer_horizontal.html",
+        "H1 HAs, raw titers (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H1_raw-titer_vertical.html",
+        # H2
+        "H2 HAs, titers normalized to noSA cells (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H2_titer-relative-to-noSA_horizontal.html",
+        "H2 HAs, titers normalized to noSA cells (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H2_titer-relative-to-noSA_vertical.html",
+        "H2 HAs, raw titers (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H2_raw-titer_horizontal.html",
+        "H2 HAs, raw titers (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H2_raw-titer_vertical.html",
+        # H3
+        "H3 HAs, titers normalized to noSA cells (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H3_titer-relative-to-noSA_horizontal.html",
+        "H3 HAs, titers normalized to noSA cells (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H3_titer-relative-to-noSA_vertical.html",
+        "H3 HAs, raw titers (horizontal)": "analysis_notebooks/strain_titers_with_trees/charts/H3_raw-titer_horizontal.html",
+        "H3 HAs, raw titers (vertical)": "analysis_notebooks/strain_titers_with_trees/charts/H3_raw-titer_vertical.html",
+    },
+    "Numerical titers": {
+        "H5 titers": "analysis_notebooks/H5-HA-MHCII-binding-screen/results/H5_pseudovirus_titer_summary.csv",
+        "H1, H2, and H3 titers": "analysis_notebooks/H1_H2_H3_MHCII_entry_titers/results/pseudovirus_titer_summary.csv",
+    },
+}
