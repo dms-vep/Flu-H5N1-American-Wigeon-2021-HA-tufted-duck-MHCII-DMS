@@ -34,3 +34,9 @@ The format is explained within the file.
  - `beta chain Genbank`: NCBI accession number for MHCII beta chain
  - `summary`: summary of information known about this MHCII heterodimer 
  - `notes`: any additional information 
+
+## MHCII bound to HA structure
+[H5_MHCII_PDB](./H5_MHCII_PDB) folder contains PDB with MHC-II bound to HA structure
+
+## Plasmid maps
+[plasmid_maps](./plasmid_maps) contains all GenBank maps for plasmids used in this manuscript
