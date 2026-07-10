@@ -1,0 +1,78 @@
+LOCUS       H7_anhui13_gen2_        1692 bp    DNA     linear   SYN 02-FEB-2026
+DEFINITION  synthetic linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1692)
+  AUTHORS   SnapGene License
+  TITLE     Direct Submission
+  JOURNAL   Exported Feb 19, 2026 from SnapGene 8.1.0
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1692
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     primer_bind     1..6
+                     /label=mCherry_fw
+     misc_feature    1..6
+                     /locus_tag="KozakSeq"
+                     /label=KozakSeq
+     misc_feature    1..6
+                     /label=5' Overhang (for library submission)
+     CDS             7..1692
+                     /label=A_Anhui_1_2013-H7N9_HA_GENSCRIPT2
+     misc_feature    7..61
+                     /label=signal peptide
+     CDS             61..1578
+                     /codon_start=1
+                     /label=ECTODOMAIN
+                     /translation="DKICLGHHAVSNGTKVNTLTERGVEVVNATETVERTNIPRICSKG
+                     KRTVDLGQCGLLGTITGPPQCDQFLEFSADLIIERREGSDVCYPGKFVNEEALRQILRE
+                     SGGIDKEAMGFTYSGIRTNGATSACRRSGSSFYAEMKWLLSNTDNAAFPQMTKSYKNTR
+                     KSPALIVWGIHHSVSTAEQTKLYGSGNKLVTVGSSNYQQSFVPSPGARPQVNGLSGRID
+                     FHWLMLNPNDTVTFSFNGAFIAPDRASFLRGKSMGIQSGVQVDANCEGDCYHSGGTIIS
+                     NLPFQNIDSRAVGKCPRYVKQRSLLLATGMKNVPEIPKGRGLFGAIAGFIENGWEGLID
+                     GWYGFRHQNAQGEGTAADYKSTQSAIDQITGKLNRLIEKTNQQFELIDNEFNEVEKQIG
+                     NVINWTRDSITEVWSYNAELLVAMENQHTIDLADSEMDKLYERVKRQLRENAEEDGTGC
+                     FEIFHKCDDDCMASIRNNTYDHSKYREEAMQNRIQIDPVKLSSGYKDV"
+     CDS             1012..1023
+                     /label=cleavage
+     CDS             1024..1530
+                     /label=HA2
+     misc_feature    1687..1689
+                     /label=stop
+     misc_feature    1690..1692
+                     /label=stop
+ORIGIN
+        1 gccaccatga acacccagat cttagttttc gccctgatcg ccatcatccc caccaatgcc
+       61 gataagatct gcctgggcca ccacgccgtg tccaacggca ccaaggtgaa caccctgacc
+      121 gagaggggag tggaagtggt gaatgccacc gaaaccgtgg aacggacaaa catccctaga
+      181 atctgtagca aaggcaagcg gacagtggac ctaggacagt gcggcctcct gggtacaatc
+      241 accggccccc cccaatgtga tcagttcctg gaattcagcg ccgacctgat catcgagcgc
+      301 agagaaggct ctgatgtctg ctaccctggc aaattcgtga acgaggaagc tctgagacag
+      361 atcctgcgag agagcggcgg tatcgacaaa gaggccatgg gcttcaccta cagcggaatc
+      421 agaaccaacg gagccacaag cgcctgcaga cggtctggca gcagcttcta cgccgagatg
+      481 aaatggctgc tgtctaatac tgataacgct gctttccctc aaatgaccaa gtcatataag
+      541 aacacccgga agtccccagc cctgattgtg tggggcatcc accacagcgt gtctacagcc
+      601 gaacagacaa agctgtacgg ctccggaaat aagctggtga ccgtgggaag ctccaactac
+      661 cagcaaagct tcgtgcctag cccaggcgcc agacctcagg tgaacggcct gagcggaaga
+      721 atcgacttcc actggctgat gctgaaccct aacgacaccg tgaccttctc cttcaacggc
+      781 gcttttatcg cccctgatag agctagcttt ctgcggggca aaagcatggg catccagagc
+      841 ggcgtgcagg tcgacgccaa ctgcgagggc gactgctacc actctggcgg cacaatcatc
+      901 agcaatctgc ctttccagaa catcgacagc cgggccgtgg gcaagtgccc cagatacgtg
+      961 aaacaaagaa gcctgctgct ggccaccggc atgaagaatg tgcctgagat ccccaagggc
+     1021 agaggcctgt tcggcgctat cgccggattc attgaaaacg gatgggaggg cctgatcgac
+     1081 ggctggtacg gcttcagaca ccagaatgcc cagggcgagg gcaccgccgc cgactacaag
+     1141 agcacacaga gcgccatcga ccagatcacc ggcaagctca atagactgat cgagaagaca
+     1201 aaccagcagt tcgagctgat tgacaatgag ttcaacgagg tggaaaagca gatcggcaac
+     1261 gtgatcaact ggaccagaga tagcatcaca gaggtgtgga gttataacgc cgaacttctg
+     1321 gtcgccatgg aaaaccagca caccatcgat ctggctgaca gcgagatgga caagctgtac
+     1381 gagcgggtga agcggcagct gagagagaac gctgaagagg acggcacagg ctgcttcgag
+     1441 atcttccata agtgcgacga tgactgcatg gcctctatcc ggaacaacac atacgaccac
+     1501 agcaagtaca gagaagaggc catgcagaac aggattcaga ttgatcctgt gaagctgtcc
+     1561 agcggctaca aggacgtgat cctgtggttc agctttggcg cttcttgttt tatcctgctg
+     1621 gccatcgtga tgggcctggt ctttatctgt gtgaagaacg gcaacatgcg gtgcaccatc
+     1681 tgtatctgat aa
+//
