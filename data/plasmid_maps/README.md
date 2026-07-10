@@ -38,3 +38,5 @@ This folder contains GenBank files for the plasmids listed below. Click a plasmi
 | [`HDM_ferret_MHCII.gb`](HDM_ferret_MHCII.gb) | Expression plasmid coding for MHCII from ferret (alpha chain XP_044930595.1 and beta chain XP_044930596.1). |
 | [`HDM_mouse_MHCII_H2-Eb1.gb`](HDM_mouse_MHCII_H2-Eb1.gb) | Expression plasmid coding for MHCII from BALB\\c mouse. |
 | [`pH2rU3_ForInd_H5_H5N1_turkey_Indiana_genscript_T7_CMV_RFP657T2APurR.gb`](pH2rU3_ForInd_H5_H5N1_turkey_Indiana_genscript_T7_CMV_RFP657T2APurR.gb) | Lentivirus backbone coding for H5 HA used to make 293T-H5-HA cells. |
+| [`5484_HDM_H9_HA_HongKong.gb`](5484_HDM_H9_HA_HongKong.gb) | Expression plasmid coding for H9 HA. |
+| [`5733_HDM_H7_anhui13_gen2_WT.gb`](5733_HDM_H7_anhui13_gen2_WT.gb) | Expression plasmid coding for H7 HA. |

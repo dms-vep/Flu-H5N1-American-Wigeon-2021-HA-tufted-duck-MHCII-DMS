@@ -40,3 +40,6 @@ The format is explained within the file.
 
 ## Plasmid maps
 [plasmid_maps](./plasmid_maps) contains all GenBank maps for plasmids used in this manuscript
+
+## HA sequences
+[HA_sequences.csv](HA_equences.csv) provides all HA sequences from different subtypes tested in the manuscript associated with this repository 
