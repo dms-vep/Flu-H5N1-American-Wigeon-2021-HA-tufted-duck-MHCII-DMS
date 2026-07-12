@@ -97,3 +97,6 @@ Additional plots:
 For CSVs with the raw and normalized titer data, see:
   - [H5 HA pseudovirus titer data](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master/analysis_notebooks/H5-HA-MHCII-binding-screen/results/H5_pseudovirus_titer_summary.csv) 
   - [H1, H2 and H3 HA pseudovirus titer data](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master/analysis_notebooks/H1_H2_H3_MHCII_entry_titers/results/pseudovirus_titer_summary.csv) 
+
+## Interactive trees with titers
+Note that these titers can also be viewed on the [interactive Nextrain trees here](trees), which can allow deeper interactive exploration of the data.
