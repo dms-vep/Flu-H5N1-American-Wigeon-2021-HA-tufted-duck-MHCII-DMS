@@ -52,6 +52,13 @@ Click on a site in the line plot of differences in entry between the cells to hi
 
 <iframe src="https://dms-viz.github.io/v0/?data=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-vep%2FFlu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS%2Frefs%2Fheads%2Fmaster%2Fresults%2Fdms-viz%2Fcell_entry_diffs_on_4kwm%2Fcell_entry_diffs_on_4kwm.json" width="100%" height="700px"></iframe>
 
+## Comparison between effects of mutations in HA on entry in different cell lines
+The scatter plots below compare the effects of HA mutations on entry into different cell lines. Hover over any point to view the corresponding site and amino acid information. Blue points represent mutations in the HA1 domain, orange points represent mutations in the HA2 domain.
+
+<Figure caption="Scatterplots showing effects of mutations in HA on entry in different cell lines">
+    <Altair :showShadow="true" :spec-url="'htmls/compare_cell_entry_scatter.html'"></Altair>
+</Figure>
+
 ## Numerical values of mutations effects on cell entry
 For numerical data, see the following CSVs; note that *site* refers to [H3 numbering](numbering):
  - [Effects of each mutation on entry in each cell line, after recommended QC](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/summaries/entry_all_cells.csv)
