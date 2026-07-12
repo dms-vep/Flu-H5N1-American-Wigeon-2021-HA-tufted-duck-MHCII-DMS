@@ -28,14 +28,13 @@ Mouse over mutations on the heatmap for details.
 
 Click on the box in the upper right of the below plot to expand it to full page.
 
-<Figure caption="Effects of mutations in H5 HA on different cell lines">
+<Figure caption="Differences in effects of HA mutations on entry in different cell lines">
     <Altair :showShadow="true" :spec-url="'htmls/compare_cell_entry_site_zoom.html'"></Altair>
 </Figure>
 
 Additional relevant links:
 
  - [standalone link to the chart shown above](htmls/compare_cell_entry_site_zoom.html){target="_self"}
- - [heatmap showing effects of all mutations on all cell lines](htmls/entry_all_cells_overlaid.html){target="_self"}
  - [comparable plots for a H7 rather than H5 HA](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/)
 
 ## HA structure colored by mutation effects on entry in MHC-II versus sialic acid expressing cells
@@ -52,15 +51,31 @@ Click on a site in the line plot of differences in entry between the cells to hi
 
 <iframe src="https://dms-viz.github.io/v0/?data=https%3A%2F%2Fraw.githubusercontent.com%2Fdms-vep%2FFlu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS%2Frefs%2Fheads%2Fmaster%2Fresults%2Fdms-viz%2Fcell_entry_diffs_on_4kwm%2Fcell_entry_diffs_on_4kwm.json" width="100%" height="700px"></iframe>
 
+## Effects of mutations on entry in each cell lines
+The below heatmaps show the effects of each mutation on HA-mediated cell entry in all cell lines:
+
+<Figure caption="Effects of HA mutations on entry in each cell line">
+    <Altair :showShadow="true" :spec-url="'htmls/entry_all_cells_overlaid.html'"></Altair>
+</Figure>
+
+
+Click [here](htmls/entry_all_cells_overlaid.html){target="_self"} for a standalone linke to the above plot.
+
 ## Comparison between effects of mutations in HA on entry in different cell lines
-The scatter plots below compare the effects of HA mutations on entry into different cell lines. Hover over any point to view the corresponding site and amino acid information. Blue points represent mutations in the HA1 domain, orange points represent mutations in the HA2 domain.
+The scatter plots below compare the effects of HA mutations on entry into different cell lines.
+Each point represents the effects of a specific mutation in two different cell lines.
+Hover over a point to view details about that mutation.
+Blue points represent mutations in the HA1 domain, orange points represent mutations in the HA2 domain.
+The slider at the bottom indicates the floor that is assigned to the mutation effects (eg, values < than the floor are plotted at the floor).
 
 <Figure caption="Scatterplots showing effects of mutations in HA on entry in different cell lines">
     <Altair :showShadow="true" :spec-url="'htmls/compare_cell_entry_scatter.html'"></Altair>
 </Figure>
 
+Click [here](htmls/compare_cell_entry_scatter.html){target="_self"} for a standalone link to the above plot.
+
 ## Numerical values of mutations effects on cell entry
 For numerical data, see the following CSVs; note that *site* refers to [H3 numbering](numbering):
  - [Effects of each mutation on entry in each cell line, after recommended QC](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/summaries/entry_all_cells.csv)
  - [Differences in mutation effects on entry in each cell line, after applying the QC and effect floors / ceilings used in plots above](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/compare_cell_entry/mut_diffs.csv)
- - See links in the *Functional effects of mutations* subsection of the [Appendix](appendix.html){target="_self"} to see additional CSV files with mutation effects without the various QC filters applied above.
+ - See links in the *Functional effects of mutations* subsection of the [Appendix](appendix.html){target="_self"} for additional CSV files with mutation effects without the various QC filters applied above.
