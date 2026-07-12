@@ -13,3 +13,5 @@ Both HA and the MHC-II are colored by how mutations to them affect binding, with
   <source src="./H5-MHCII.mp4" type="video/mp4">
 </video>
 
+The PDB file for this model is available [here](https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master/data/H5_MHCII_PDB/H5_MHCII_36XU.pdb) and has been submitted to the Protein Data Bank with identifier *36XU*.
+
