@@ -24,9 +24,9 @@ github_repo_url: https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tuf
 # GitHub blob path to where results files are stored. Typically "{repo}/blob/{branch}"
 github_blob_url: https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/blob/master
 # Some descriptions and metadata about the analysis.
-description: Deep mutational scanning of HA mediated cell entry in tufted MHC-II expressing cells as measured using pseudoviruses with HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1)
+description: Deep mutational scanning of how mutations to the influenza HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) affect its interaction with tufted duck MHC-II
 year: 2026
-authors: "Bernadeta Dadonaite and Jesse Bloom"
+authors: "[Dadonaite et al](https://doi.org/10.64898/2026.07.17.738765)"
 
 # ----------------------------------------------------------------------------
 # Site numbering, mutation classification, and neut standards

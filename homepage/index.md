@@ -36,7 +36,7 @@ features:
 
 This website provides interactive visualizations and links to numerical data from pseudovirus deep mutational scanning measuring how mutations to an H5 HA (from A/American Wigeon/South Carolina/USDA-000345-001/2021) affect its interaction with tufted duck MHC-II.
 
-For details about the study, see [Dadonaite et al. (2026)]() [**ADD CITATION**].
+For details about the study, see [Dadonaite et al. (2026)](https://doi.org/10.64898/2026.07.17.738765).
 
 Visualizations and data can be accessed by clicking the gray boxes above for each type of measurement, namely:
  - [Effects of H5 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid](entry)
@@ -60,4 +60,4 @@ These pseudoviruses do not encode any viral proteins other than HA, and so are o
 They therefore provide a safe way to study mutations to the HA protein at biosafety-level-2 outside the context of actual pathogenic influenza.
 The specific H5 HA pseudovirus deep mutational scanning libraries used for these experiments have [been previously described](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002916).
 
-See the biosafety statement in the paper about this study ([Dadonaite et al. (2026)]() [**ADD CITATION**]) for additional details.
+See the biosafety statement in the paper about this study ([Dadonaite et al. (2026)](https://doi.org/10.64898/2026.07.17.738765)) for additional details.

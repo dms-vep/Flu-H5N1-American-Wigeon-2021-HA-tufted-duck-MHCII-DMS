@@ -1,6 +1,6 @@
 # Pseudovirus deep mutational scanning of HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) for entry and binding to tufted duck MHC-II
 
-**ADD CITATION when available**
+See [Dadonaite et al (2026)](https://doi.org/10.64898/2026.07.17.738765) for details on this study.
 
 This repository has the code and data.
 Specifically:

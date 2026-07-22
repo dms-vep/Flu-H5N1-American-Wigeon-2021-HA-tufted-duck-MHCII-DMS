@@ -4,7 +4,7 @@ aside: false
 
 # Structural model of H5 HA bound to tufted duck MHC-II
 
-Below is a structural model of H5 HA bound to tufted duck MHC-II generated using cryo-EM and AlphaFold 3 as described in [Dadonaite et al (2026)]() [**ADD CITATION**].
+Below is a structural model of H5 HA bound to tufted duck MHC-II generated using cryo-EM and AlphaFold 3 as described in [Dadonaite et al (2026)](https://doi.org/10.64898/2026.07.17.738765).
 
 In this model, the HA trimer is shown in a surface representation and tufted duck MHC-II is shown as a cartoon.
 Both HA and the MHC-II are colored by how mutations to them affect binding, with sites colored red when most mutations at decrease binding and blue when most mutations increase binding.
