@@ -13,7 +13,7 @@ features:
     details: Effects of H5 HA mutations on binding to tufted duck MHC-II VLPs
     link: /binding
   - title: Structural model of HA bound to MHC-II
-    details: Cryo-EM based model of H5 HA bound to tufted duck MHC-II
+    details: Cryo-EM structure of H5 HA bound to tufted duck MHC-II
     link: /structural_model
   - title: Effects of H7 HA mutations on MHC-II interaction
     details: Deep mutational scanning of how a H7 HA interacts with tufted duck MHC-II
@@ -41,7 +41,7 @@ For details about the study, see [Dadonaite et al. (2026)](https://doi.org/10.64
 Visualizations and data can be accessed by clicking the gray boxes above for each type of measurement, namely:
  - [Effects of H5 HA mutations on entry in cells expressing tufted duck MHC-II or sialic acid](entry)
  - [Effects of H5 HA mutations on binding to tufted duck MHC-II](binding)
- - [Structural model of H5 HA bound to tufted duck MHC-II](structural_model)
+ - [Structure of H5 HA bound to tufted duck MHC-II](structural_model)
  - [Effects of mutations to a H7 HA on interaction with MHC-II](https://dms-vep.org/Flu-H7-Anhui13-MHCII-binding/)
  - [Effects of mutations to tufted duck MHC-II on its interaction with H5 HA](https://dms-vep.org/Tufted-duck-MHCII-DMS/)
  - [Titers for natural HAs in MHC-II or sialic acid cells](entry_titers)
