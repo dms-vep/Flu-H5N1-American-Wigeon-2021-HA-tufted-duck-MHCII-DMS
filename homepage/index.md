@@ -12,7 +12,7 @@ features:
   - title: Binding to MHC-II
     details: Effects of H5 HA mutations on binding to tufted duck MHC-II VLPs
     link: /binding
-  - title: Structural model of HA bound to MHC-II
+  - title: Structure of HA bound to MHC-II
     details: Cryo-EM structure of H5 HA bound to tufted duck MHC-II
     link: /structural_model
   - title: Effects of H7 HA mutations on MHC-II interaction
